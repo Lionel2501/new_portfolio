@@ -19,7 +19,7 @@ const Header = ({ headerColor, isTransparent }) => {
           <div className="container">
             {/* Brand */}
             <a className="navbar-brand" href="index.html">
-              Tony <span className="theme-bg" />
+              Lionel <span className="theme-bg" />
             </a>
             {/* / */}
             {/* Mobile Toggle */}

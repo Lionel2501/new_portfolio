@@ -119,3 +119,33 @@ footer p {
 .purchase-section a i {
 	margin-right: 8px
 }
+
+.custom-dialog {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+	border-radius: 8px;
+	padding: 20px;
+	max-width: 400px;
+	width: 90%;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  }
+  
+  .custom-dialog h2 {
+	margin-bottom: 10px;
+  }
+  
+  .custom-dialog button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .custom-dialog button:hover {
+	background-color: #0056b3;
+  }

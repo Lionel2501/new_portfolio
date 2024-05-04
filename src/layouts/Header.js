@@ -52,8 +52,8 @@ const Header = ({ headerColor, isTransparent }) => {
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link" href="#services">
-                    services
+                  <a className="nav-link" href="#experience">
+                    Experience
                   </a>
                 </li>
                 <li>

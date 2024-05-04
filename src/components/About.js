@@ -5,9 +5,9 @@ const About = () => {
         <div className="row sm-m-25px-b m-35px-b">
           <div className="col-md-12">
             <div className="section-title">
-              <h3 className="dark-color text-uppercase">ABOUT ME</h3>
+              <h3 className="dark-color text-uppercase">Datos personales</h3>
               <p className="text-uppercase small">
-                A Lead UX &amp; UI designer based in Canada
+                Desarollador Full Stack
               </p>
             </div>
           </div>
@@ -15,18 +15,9 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 m-15px-tb">
             <div className="about-me-img box-shadow">
-              <img src="static/img/about-us.jpg" alt="image" />
+              <img src="demo/img/img_presentatio_test.png" alt="image" />
               <div className="nav social-icon">
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/lionelcassar/" target="_blank">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>
@@ -34,59 +25,49 @@ const About = () => {
           </div>
           <div className="col-lg-7 m-15px-tb">
             <div className="about-me">
-              <h4>I'M Tony Smith</h4>
+              <h4>Lionel Cassar</h4>
               <h6>
-                A Lead <span className="theme-color">UX &amp; UI</span> designer
-                based in <span className="theme-color">Canada</span>
+                Desarollador <span className="theme-color">Full Stack</span> basado en <span className="theme-color">Argentina</span>
               </h6>
               <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores. My passion is to design digital user
-                experiences through the bold interface and meaningful
-                interactions. Check out my Portfolio
+                Programador con más de 3 años de experiencia en desarrollo de software, 
+                especializado en tecnologías web front-end y back-end. 
+                Apasionado por crear sistemas robustos y eficientes que mejoran 
+                la experiencia del usuario.
               </p>
               <div className="row about-list">
                 <div className="col-md-6">
                   <div className="media">
-                    <label>Birthday</label>
-                    <p>4th april 1991</p>
+                    <label>Edad</label>
+                    <p>32 años</p>
                   </div>
                   <div className="media">
-                    <label>Age</label>
-                    <p>22 Yr</p>
+                    <label>Ciudad</label>
+                    <p>Tandil, Buenos Aires</p>
                   </div>
                   <div className="media">
-                    <label>Residence</label>
-                    <p>Canada</p>
-                  </div>
-                  <div className="media">
-                    <label>Address</label>
-                    <p>California, USA</p>
+                    <label>E-mail</label>
+                    <p>lionelcassar92@gmail.com</p>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="media">
-                    <label>E-mail</label>
-                    <p>info@domain.com</p>
+                    <label>WhatsApp</label>
+                    <p>+54-2494-646-055</p>
                   </div>
                   <div className="media">
-                    <label>Phone</label>
-                    <p>820-885-3321</p>
+                    <label>LinkedIn</label>
+                    <p>linkedin.com/in/lionelcassar</p>
                   </div>
                   <div className="media">
-                    <label>Skype</label>
-                    <p>skype.0404</p>
-                  </div>
-                  <div className="media">
-                    <label>Freelance</label>
-                    <p>Available</p>
+                    <label>GitHub</label>
+                    <p>github.com/Lionel2501</p>
                   </div>
                 </div>
               </div>
               <div className="btn-bar">
-                <a className="m-btn m-btn-theme" href="#work">
-                  Download CV
+                <a className="m-btn m-btn-theme" href="#">
+                  Descargar CV
                 </a>
               </div>
             </div>

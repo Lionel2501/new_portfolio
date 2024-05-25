@@ -3,10 +3,10 @@ import Blog from "@/src/components/Blog";
 import Contact from "@/src/components/Contact";
 import Skills from "@/src/components/Skills";
 import Testiminails from "@/src/components/Testiminails";
-import { tony } from "@/src/layouts/utils";
+import Experience from "@/src/components/Experience";
+import { utils } from "@/src/layouts/utils";
 import { Fragment, useEffect, useState } from "react";
 
-import Experience from "@/src/components/Experience";
 import TypingAnimation from "@/src/components/TypingAnimation";
 import Footer from "@/src/layouts/Footer";
 import dynamic from "next/dynamic";
@@ -15,17 +15,26 @@ const Work = dynamic(() => import("@/src/components/Work"), {
   ssr: false,
 });
 
+const scrollToBottom = () => {
+  window.location.href = '#experience';
+}
+
 const Index1 = () => {
   useEffect(() => {
-    tony.scrollToActiveNav();
+    utils.scrollToActiveNav();
+    setTimeout(() => {
+      scrollToBottom();
+    }, 5000);
   }, []);
+
   const [toggle, setToggle] = useState(false);
+
   return (
     <Fragment>
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
-            <a className="logo-text" href="index.html">
+            <a className="logo-text">
               Lionel
             </a>
           </div>
@@ -54,15 +63,21 @@ const Index1 = () => {
             </a>
           </li>
           <li>
-            <a className="nav-link" href="#about">
-              <i className="far fa-address-card" />
-              <span>About Me</span>
+            <a className="nav-link" href="#experience">
+              <i className="fas fa-concierge-bell" />
+              <span>Experiencía</span>
             </a>
           </li>
           <li>
-            <a className="nav-link" href="#experience">
+            <a className="nav-link" href="#skills">
               <i className="fas fa-concierge-bell" />
-              <span>Experience</span>
+              <span>Tecnologías</span>
+            </a>
+          </li>
+          <li>
+            <a className="nav-link" href="#about">
+              <i className="far fa-address-card" />
+              <span>About Me</span>
             </a>
           </li>
           <li>
@@ -71,18 +86,18 @@ const Index1 = () => {
               <span>Portfolio</span>
             </a>
           </li>
-          <li>
+{/*           <li>
             <a className="nav-link" href="#blog">
               <i className="fas fa-blog" />
               <span>Blog</span>
             </a>
-          </li>
-          <li>
+          </li> */}
+{/*           <li>
             <a className="nav-link" href="#contactus">
               <i className="fas fa-id-card-alt" />
               <span>Contact</span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </header>
 
@@ -95,7 +110,7 @@ const Index1 = () => {
         >
           <div className="container">
             <div className="row full-screen align-items-center p-100px-tb">
-              <div className="col-md-6">
+              <div className="col-md-12">
                 <div className="ht-text">
                   <h6>Bienvenidos !</h6>
                   <h1>Me llamó Lionel</h1>
@@ -120,33 +135,18 @@ const Index1 = () => {
             </div>
           </div>
           <div className="go-to go-to-next">
-            <a href="#about">
+            <a href="#experience">
               <span />
             </a>
           </div>
         </section>
-        {/* End Home Banner */}
-
-        {/* End Home Banner */}
-        {/* about us */}
-        <About />
-        {/* end about us */}
-        {/* fun */}
-        <Skills />
-        {/* End fun */}
-        {/* resume */}
         <Experience />
-        {/* End resume */}
-        {/* Work */}
+        <Skills />
+        <About />
         <Work />
-        {/* End work */}
-        {/* Testiminails */}
-        <Testiminails />
-        {/* End Testiminails */}
-        {/* Blog */}
-        <Blog />
-        {/* End Blog */}
-        <Contact />
+        {/* <Testiminails /> */}
+        {/* <Blog /> */}
+        {/* <Contact /> */}
       </main>
       <Footer />
     </Fragment>

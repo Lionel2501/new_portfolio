@@ -12,10 +12,10 @@ export default function Document() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="keywords" content="Tony - Portfolio Template" />
-        <meta name="description" content="Tony - Portfolio Template" />
+        <meta name="keywords" content="Lionel Cassar dev" />
+        <meta name="description" content="Lionel Cassar dev" />
         {/* title */}
-        <title>Tony - Portfolio React NextJS Template</title>
+        <title>Lionel Cassar Dev</title>
         {/* Favicon */}
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         {/* plugin CSS */}

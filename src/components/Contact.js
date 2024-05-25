@@ -47,7 +47,6 @@ const Contact = () => {
     }
   };
 
-  console.log(error);
   return (
     <section id="contactus" className="section gray-bg">
       <div className="container">

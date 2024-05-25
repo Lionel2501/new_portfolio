@@ -18,7 +18,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-const ExpericienceWippie = ({open, onOpen}) => {
+const ExpericienceGrupoAgni = ({open, onOpen}) => {
 
   const [_open, setOpen] = useState(false);
 
@@ -79,4 +79,4 @@ const ExpericienceWippie = ({open, onOpen}) => {
   );
 };
 
-export default ExpericienceWippie;
+export default ExpericienceGrupoAgni;

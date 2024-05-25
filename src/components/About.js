@@ -1,4 +1,14 @@
 const About = () => {
+  const handleDownload = () => {
+    // Puedes realizar alguna operación aquí si es necesario
+    const link = document.createElement('a');
+    link.href = '../../public/demo/files/cv_lionel_cassar_programador.pdf';
+    link.download = 'lionel_cassar_cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="about" className="section gray-bg">
       <div className="container">
@@ -13,6 +23,7 @@ const About = () => {
           </div>
         </div>
         <div className="row align-items-center">
+            {/* 
           <div className="col-lg-5 m-15px-tb">
             <div className="about-me-img box-shadow">
               <img src="demo/img/img_presentatio_test.png" alt="image" />
@@ -21,9 +32,10 @@ const About = () => {
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>
-            </div>
+            </div> 
           </div>
-          <div className="col-lg-7 m-15px-tb">
+            */}
+          {/* <div className="col-lg-7 m-15px-tb"> */}
             <div className="about-me">
               <h4>Lionel Cassar</h4>
               <h6>
@@ -66,12 +78,12 @@ const About = () => {
                 </div>
               </div>
               <div className="btn-bar">
-                <a className="m-btn m-btn-theme" href="#">
+                <a className="m-btn m-btn-theme" onClick={handleDownload}>
                   Descargar CV
                 </a>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>

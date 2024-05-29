@@ -16,11 +16,13 @@ const Work = dynamic(() => import("@/src/components/Work"), {
 });
 
 const scrollToBottom = () => {
-  window.location.href = '#experience';
+  if (typeof window !== "undefined") { // Verificar si estamos en el lado del cliente
+    window.location.href = '#experience';
+  }
 }
 
 const Index1 = () => {
-  useEffect(() => {
+   useEffect(() => {
     utils.scrollToActiveNav();
     setTimeout(() => {
       scrollToBottom();

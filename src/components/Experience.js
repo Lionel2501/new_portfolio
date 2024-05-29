@@ -36,7 +36,7 @@ const Experience = () => {
 {/*               <div className="icon">
                 <i className="icon-desktop" />
               </div> */}
-              <img src="/demo/img/wippie.png" 
+              <img src="/img/wippie.png" 
                 alt="wippie_logo" style={{ marginBottom: '20px' }} />
               <div className="feature-content">
                 <h5>Wippie</h5>
@@ -66,7 +66,7 @@ const Experience = () => {
 {/*               <div className="icon">
                 <i className="icon-pricetags" />
               </div> */}
-              <img src="/demo/img/grupo_agni.png" 
+              <img src="/img/grupo_agni.png" 
                 alt="wippie_logo" style={{ marginBottom: '20px' }} />
               <div className="feature-content">
                 <h5>Grupo Agni</h5>
@@ -96,7 +96,7 @@ const Experience = () => {
 {/*               <div className="icon">
                 <i className="icon-chat" />
               </div> */}
-              <img src="/demo/img/arte_y_parte.jpg" 
+              <img src="/img/arte_y_parte.jpg" 
                 alt="wippie_logo" style={{ marginBottom: '20px' }} />
               <div className="feature-content">
                 <h5>Arte y parte</h5>

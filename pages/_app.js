@@ -1,10 +1,12 @@
 import Preloader from "@/src/layouts/Preloader";
 import "@/styles/globals.css";
+import "@/styles/footer.css";
 import { Fragment, useEffect, useState } from "react";
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
   const [content, setContent] = useState(false);
+  
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -13,6 +15,7 @@ export default function App({ Component, pageProps }) {
       setContent(true);
     }, 1000);
   }, []);
+
   return (
     <Fragment>
       {loading && <Preloader />}

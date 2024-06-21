@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { Accordion } from "react-bootstrap";
-import { tony } from "./utils";
+import { utils } from "./utils";
 
 const Header = ({ headerColor, isTransparent }) => {
   useEffect(() => {
-    tony.stickyNav();
-    tony.scrollToActiveNav();
+    utils.stickyNav();
+    utils.scrollToActiveNav();
   }, []);
 
   return (
@@ -52,8 +52,8 @@ const Header = ({ headerColor, isTransparent }) => {
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link" href="#services">
-                    services
+                  <a className="nav-link" href="#experience">
+                    Experience
                   </a>
                 </li>
                 <li>

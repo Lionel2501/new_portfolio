@@ -789,7 +789,7 @@ h6 {
   height: 2px;
   z-index: -1;
   background: #d9832e;
-  width: 50px;
+  width: 100%;
 }
 .section-title p {
   margin: 0;

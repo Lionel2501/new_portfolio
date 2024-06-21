@@ -1,5 +1,5 @@
 {
-  "name": "tony-react",
+  "name": "lionel_portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.18",
+    "@mui/material": "^5.15.16",
     "@next/font": "13.2.4",
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
@@ -16,6 +20,8 @@
     "react": "18.2.0",
     "react-bootstrap": "^1.6.1",
     "react-dom": "18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.1",
     "react-tsparticles": "^2.9.3",
     "swiper": "^9.1.0",
     "tsparticles": "^2.9.3",

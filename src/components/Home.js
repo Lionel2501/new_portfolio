@@ -41,11 +41,11 @@ const Home = () => {
             </div>
         </div>
         </div>
-        <div className="go-to go-to-next">
-        <a href="experience">
-            <span />
-        </a>
-        </div>
+{/*         <div className="go-to go-to-next">
+            <a href="experience">
+                <span />
+            </a>
+        </div> */}
     </section>
   );
 };

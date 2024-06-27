@@ -1,0 +1,127 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+#large-header {
+	background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 20%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.demo-1 .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+}
+
+.container_carousel {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	width: 320px;
+	margin: 100px auto 0 auto;
+	perspective: 1000px;
+}
+
+.carousel_main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d; 
+	animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face { 
+	position: absolute;
+	width: 300px;
+	height: 187px;
+	top: 20px;
+	left: 10px;
+	right: 10px;
+	background-size: cover;
+	box-shadow:inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+	display: flex;
+}
+
+span {
+	margin: auto;
+	font-size: 2rem;
+}
+
+.carousel__face:nth-child(1) {
+	background-image: url("../img/laravel_logo.png");
+	transform: rotateY(  0deg) translateZ(430px); 
+}
+.carousel__face:nth-child(2) { 
+	background-image: url("../img/html_logo.png");
+	transform: rotateY( 40deg) translateZ(430px); 
+}
+.carousel__face:nth-child(3) {
+	background-image: url("../img/ubuntu_logo.png");
+	transform: rotateY( 80deg) translateZ(430px); 
+}
+.carousel__face:nth-child(4) {
+	background-image: url("../img/react_logo.png");
+	transform: rotateY(120deg) translateZ(430px); 
+}
+.carousel__face:nth-child(5) { 
+	background-image: url("../img/php_logo.png");
+	transform: rotateY(160deg) translateZ(430px); 
+}
+.carousel__face:nth-child(6) { 
+	background-image: url("../img/mysql_logo.png");
+	transform: rotateY(200deg) translateZ(430px); 
+}
+.carousel__face:nth-child(7) { 
+	background-image: url("../img/css_logo.png");
+	transform: rotateY(240deg) translateZ(430px); 
+}
+.carousel__face:nth-child(8) {
+	background-image: url("../img/mongo_db_logo.png");
+	transform: rotateY(280deg) translateZ(430px); 
+}
+.carousel__face:nth-child(9) {
+	background-image: url("../img/kumbia_php_logo.png");
+	transform: rotateY(320deg) translateZ(430px); 
+}
+
+@keyframes rotate360 {
+from {
+	transform: rotateY(0deg);
+}
+to {
+	transform: rotateY(-360deg);
+}
+}

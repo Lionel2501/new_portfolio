@@ -22,17 +22,18 @@ const scrollToBottom = () => {
 }
 
 const Index1 = () => {
-   useEffect(() => {
+  const [toggle, setToggle] = useState(false);
+
+/*   useEffect(() => {
     utils.scrollToActiveNav();
     setTimeout(() => {
       scrollToBottom();
     }, 5000);
-  }, []);
-
-  const [toggle, setToggle] = useState(false);
+  }, []); */
 
   return (
     <Fragment>
+      {/*  
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
@@ -48,7 +49,7 @@ const Index1 = () => {
         </div>
       </div>
 
-      <header
+     <header
         className={`header-left ${toggle ? "menu-open menu-open-desk" : ""}`}
         id="navbar-collapse-toggle"
       >
@@ -88,20 +89,20 @@ const Index1 = () => {
               <span>Portfolio</span>
             </a>
           </li>
-{/*           <li>
+          <li>
             <a className="nav-link" href="#blog">
               <i className="fas fa-blog" />
               <span>Blog</span>
             </a>
-          </li> */}
-{/*           <li>
+          </li>
+           <li>
             <a className="nav-link" href="#contactus">
               <i className="fas fa-id-card-alt" />
               <span>Contact</span>
             </a>
-          </li> */}
+          </li> 
         </ul>
-      </header>
+      </header> */}
 
       <main className="main-left">
         {/* Home Banner */}

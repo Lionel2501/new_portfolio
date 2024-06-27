@@ -63,7 +63,7 @@
 	transform-style: preserve-3d; 
 	animation: rotate360 60s infinite forwards linear;
 }
-.carousel__face { 
+.carousel__face {
 	position: absolute;
 	width: 300px;
 	height: 187px;
@@ -71,9 +71,12 @@
 	left: 10px;
 	right: 10px;
 	background-size: cover;
-	box-shadow:inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
 	display: flex;
-}
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+  }
 
 span {
 	margin: auto;
@@ -82,10 +85,14 @@ span {
 
 .carousel__face:nth-child(1) {
 	background-image: url("../img/laravel_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+  	background-position: center; 
 	transform: rotateY(  0deg) translateZ(430px); 
 }
 .carousel__face:nth-child(2) { 
 	background-image: url("../img/html_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+	background-position: center; 
 	transform: rotateY( 40deg) translateZ(430px); 
 }
 .carousel__face:nth-child(3) {
@@ -94,26 +101,41 @@ span {
 }
 .carousel__face:nth-child(4) {
 	background-image: url("../img/react_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; 
 	transform: rotateY(120deg) translateZ(430px); 
 }
-.carousel__face:nth-child(5) { 
+.carousel__face:nth-child(5) {
 	background-image: url("../img/php_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+	background-position: center; 
 	transform: rotateY(160deg) translateZ(430px); 
-}
+	background-repeat: no-repeat;
+	background-clip: border-box; /* Se asegura de que la imagen no se salga del contenedor */
+	border: 2px solid black; /* Añadir borde para visualizar el contenedor (opcional) */
+  }
 .carousel__face:nth-child(6) { 
 	background-image: url("../img/mysql_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; 
 	transform: rotateY(200deg) translateZ(430px); 
 }
 .carousel__face:nth-child(7) { 
 	background-image: url("../img/css_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+	background-position: center; 
 	transform: rotateY(240deg) translateZ(430px); 
 }
 .carousel__face:nth-child(8) {
 	background-image: url("../img/mongo_db_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; 
 	transform: rotateY(280deg) translateZ(430px); 
 }
 .carousel__face:nth-child(9) {
 	background-image: url("../img/kumbia_php_logo.png");
+	background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; 
 	transform: rotateY(320deg) translateZ(430px); 
 }
 

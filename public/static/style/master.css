@@ -5489,7 +5489,7 @@ h6 {
 }
 @media (min-width: 992px) {
   .main-left {
-    padding-left: 95px;
+    padding-left: 0px;
   }
 }
 
@@ -5542,7 +5542,7 @@ h6 {
 }
 .home-banner-01 h1 {
   font-size: 60px;
-  color: #090a0c;
+  color: #fff;
   font-weight: 600;
   margin: 0 0 15px;
   line-height: 1;
@@ -5560,7 +5560,7 @@ h6 {
 .home-banner-01 h2 {
   font-weight: 500;
   font-size: 20px;
-  color: #090a0c;
+  color: #fff;
   margin: 0 0 15px;
 }
 @media (max-width: 991px) {
@@ -5786,7 +5786,7 @@ h6 {
   }
 }
 .home-banner-03 .ht-text h1 {
-  color: #090a0c;
+  color: #fff;;
   font-size: 65px;
   font-weight: 600;
 }
@@ -6257,3 +6257,55 @@ h6 {
   margin: 0;
   font-size: 14px;
 }/*# sourceMappingURL=master.css.map */
+
+#home {
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+}
+
+#experience {
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+}
+
+#about {
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
+}
+
+p {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation: shine 5s linear 3; /* Cambiado de 'infinite' a '1' para reproducirse solo una vez */
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}

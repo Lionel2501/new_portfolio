@@ -3,10 +3,9 @@ import "@/styles/globals.css";
 import "@/styles/footer.css";
 import { Fragment, useEffect, useState } from "react";
 import "../public/css/backgroundDinamic.css"
-import "../public/css/backgroundDinamic2.css"
+import "../public/css/carousel.css"
 import "../public/static/style/master.css"
 import "../src/backgroundDinamic"
-import "../src/backgroundDinamic2"
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
@@ -25,31 +24,28 @@ export default function App({ Component, pageProps }) {
     <>
       <div id="large-header" className="large-header">
         <canvas id="demo-canvas"></canvas>
-{/*           <h1 className="main-title">Bienvenidos
-            <span className="thin">Three</span>
-          </h1> */}
-          <p className="main-title">Bienvenidos a mi Portfolio Digital
-          </p>
-          <h1 className="title">Me llamo Lionel, soy programador full-stack
-          </h1>
-      </div>
-
-      <div id="large-header2" className="large-header2">
-        <canvas id="demo-canvas2"></canvas>
-        <h1 className="main-title">Tecnologias</h1>
-        <div className="container_carousel">
-            <div className="carousel_main">
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
-              <div className="carousel__face"><span></span></div>
+        <div className="contenedor">
+          <div className="contenedorItem">
+            <p className="main-title">Bienvenidos a mi Portfolio Digital</p>
+            <h1 className="title">Me llamo Lionel, soy programador full-stack</h1>
+          </div>
+          <div className="contenedorItem">
+            <h1 className="main-title">Tecnologias</h1>
+            <div className="container_carousel">
+                <div className="carousel_main">
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                  <div className="carousel__face"><span></span></div>
+                </div>
             </div>
           </div>
+        </div>
       </div>
       
 {/*
@@ -87,10 +83,10 @@ export default function App({ Component, pageProps }) {
         </section>
       </main>
 */}
-       <Fragment>
+{/*        <Fragment>
           {loading && <Preloader />}
           {content && <Component {...pageProps} />}
-      </Fragment> 
+      </Fragment>  */}
     </>
   );
 }

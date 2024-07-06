@@ -25,15 +25,27 @@
 	transform: translate3d(-50%,-50%,0);
 } */
 
+.title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
 .demo-1 .main-title {
 	text-transform: uppercase;
 	font-size: 4.2em;
 	letter-spacing: 0.1em;
 }
 
-/* .main-title .thin {
+.main-title .thin {
 	font-weight: 200;
-} */
+}
 
 @media only screen and (max-width : 768px) {
 	.demo-1 .main-title {
@@ -56,38 +68,11 @@
 	perspective: 1000px;
 }
 
-.carousel_main {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d; 
-	animation: rotate360 60s infinite forwards linear;
-}
-.carousel__face {
-	position: absolute;
-	width: 300px;
-	height: 187px;
-	top: 20px;
-	left: 10px;
-	right: 10px;
-	background-size: cover;
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-repeat: no-repeat;
-  }
-
-span {
-	margin: auto;
-	font-size: 2rem;
-}
-
 @keyframes rotate360 {
-from {
-	transform: rotateY(0deg);
-}
-to {
-	transform: rotateY(-360deg);
-}
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(-360deg);
+	}
 }

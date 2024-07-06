@@ -41,8 +41,7 @@ const Experience = () => {
               <div className="feature-content">
                 <h5>Wippie</h5>
                 <p>
-                  I design and develop Experience for customers of all sizes,
-                  specializing in creating stylish, modern websites.
+                  2023 - hasta la actualida
                 </p>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{
@@ -71,8 +70,7 @@ const Experience = () => {
               <div className="feature-content">
                 <h5>Grupo Agni</h5>
                 <p>
-                  I design and develop Experience for customers of all sizes,
-                  specializing in creating stylish, modern websites.
+                2021 - 2023
                 </p>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{
@@ -101,8 +99,7 @@ const Experience = () => {
               <div className="feature-content">
                 <h5>Arte y parte</h5>
                 <p>
-                  I design and develop Experience for customers of all sizes,
-                  specializing in creating stylish, modern websites.
+                2021 - 2021
                 </p>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{

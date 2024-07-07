@@ -5,6 +5,7 @@
 	transform-style: preserve-3d; 
 	animation: rotate360 60s infinite forwards linear;
 }
+
 .carousel__face { 
 	position: absolute;
 	width: 300px;
@@ -79,4 +80,19 @@ span {
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	transform: rotateY(320deg) translateZ(430px); 
+}
+
+.container_carousel {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	width: 320px;
+	margin: 100px auto 0 auto;
+	perspective: 1000px;
 }

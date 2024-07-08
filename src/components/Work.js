@@ -24,101 +24,21 @@ const Work = () => {
     //     return () => isotope.current.destroy();
   }, []);
   return (
-    <section id="work" className="section">
+    <section>
       <div className="container">
         <div className="row sm-m-25px-b m-35px-b">
-          <div className="col-md-12">
-            <div className="section-title">
-              <h3 className="dark-color text-uppercase">LATEST WORKS</h3>
-              <p className="text-uppercase small">
-                A Lead UX &amp; UI designer based in Canada
-              </p>
+            <div className="col-md-12">
+              <div className="section-title">
+                <h3 className="white-color text-uppercase">Work</h3>
+                <p className="text-uppercase small">
+                  Desarollador Full Stack basado en Argentina
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="container">
         <div className="portfolio-content lightbox-gallery">
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-1.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-6.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-2.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-3.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-4.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-img">
-                <img src="static/img/portfolio-5.jpg" alt="image" />
-              </div>
-              <div className="portfolio-info">
-                <h5>Our Photography</h5>
-                <span>Design</span>
-              </div>
-              <a className="link-overlay" href="#" />
-            </div>
-          </div>{" "}
-          {/* grid item */}
-        </div>{" "}
-        {/* portfolio-content */}
+
       </div>
     </section>
   );

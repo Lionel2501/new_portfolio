@@ -7,7 +7,7 @@ const TypingAnimation = () => {
         options={{
           speed: 200,
           loop: true,
-          strings: ["Desarollador", "Developer"],
+          strings: ["de programación", "Developer"],
           breakLines: false,
         }}
       />

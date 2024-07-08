@@ -5,14 +5,19 @@ import { Fragment, useEffect, useState } from "react";
 import "../public/css/backgroundDinamic.css"
 import "../public/css/carousel.css"
 import "../public/css/style.css"
+import "../public/css/experience.css"
+import "../public/css/presentacion.css"
+import "../public/css/tecnologias.css"
 import "@/styles/swiper/css/style.css";
 import "../public/static/style/master.css"
 import "../src/backgroundDinamic"
 
 
 export default function App({ Component, pageProps }) {
-   const [loading, setLoading] = useState(true);
- const [content, setContent] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [content, setContent] = useState(false);
+
+  
   
   useEffect(() => {
     setTimeout(() => {

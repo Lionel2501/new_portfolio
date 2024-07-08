@@ -22,7 +22,7 @@ const Experience = () => {
         <div className="row sm-m-25px-b m-35px-b">
           <div className="col-md-12">
             <div className="section-title">
-              <h3 className="dark-color text-uppercase">Mi Experiencia</h3>
+              <h3 className="white-color text-uppercase">Mi Experiencia</h3>
               <p className="text-uppercase small">
                 Desarollador Full Stack basado en Argentina
               </p>
@@ -36,13 +36,12 @@ const Experience = () => {
 {/*               <div className="icon">
                 <i className="icon-desktop" />
               </div> */}
+                <div className="experience_title_job">Wippie</div>
+
               <img src="/img/wippie.png" 
-                alt="wippie_logo" style={{ marginBottom: '20px' }} />
+                alt="wippie_logo" />
               <div className="feature-content">
-                <h5>Wippie</h5>
-                <p>
-                  2023 - hasta la actualida
-                </p>
+                <div className="experience_intro_job">2023 - hasta la actualida</div>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{
                     marginTop: '30px',
@@ -65,22 +64,22 @@ const Experience = () => {
 {/*               <div className="icon">
                 <i className="icon-pricetags" />
               </div> */}
-              <img src="/img/grupo_agni.png" 
-                alt="wippie_logo" style={{ marginBottom: '20px' }} />
+              <div className="experience_title_job">Grupo Agni</div>
+              <div className='grupo_agni_img'>
+                <img src="/img/grupo_agni.png" 
+                  alt="wippie_logo" />
+                </div>
               <div className="feature-content">
-                <h5>Grupo Agni</h5>
-                <p>
-                2021 - 2023
-                </p>
+              <div className="experience_intro_job">2021 - 2023</div>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{
                     marginTop: '30px',
-                    backgroundColor: 'white',
+                    backgroundColor: 'transparent',
                     '&:hover': {
                       backgroundColor: 'white'
                     }
                   }} variant="outlined" onClick={handleClickOpen}>
-                    más info
+                    leer más
                   </Button>
                 </div>
                 <ExpericienceWippie open={open} onOpen={handleDataFromChild}/>
@@ -94,26 +93,24 @@ const Experience = () => {
 {/*               <div className="icon">
                 <i className="icon-chat" />
               </div> */}
-              <img src="/img/arte_y_parte.jpg" 
-                alt="wippie_logo" style={{ marginBottom: '20px' }} />
+              <div className="experience_title_job">Arte y parte</div>
+              <img src="/img/arte_y_parte.png" 
+                alt="wippie_logo" className="experience_logo_job" />
               <div className="feature-content">
-                <h5>Arte y parte</h5>
-                <p>
-                2021 - 2021
-                </p>
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                  <Button sx={{
-                    marginTop: '30px',
-                    backgroundColor: 'white',
-                    '&:hover': {
-                      backgroundColor: 'white'
-                    }
-                  }} variant="outlined" onClick={handleClickOpen}>
-                    más info
-                  </Button>
+                <div className="experience_intro_job">2021</div>
+                  <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                    <Button sx={{
+                      marginTop: '30px',
+                      backgroundColor: 'white',
+                      '&:hover': {
+                        backgroundColor: 'white'
+                      }
+                    }} variant="outlined" onClick={handleClickOpen}>
+                      más info
+                    </Button>
+                  </div>
+                  <ExpericienceWippie open={open} onOpen={handleDataFromChild}/>
                 </div>
-                <ExpericienceWippie open={open} onOpen={handleDataFromChild}/>
-              </div>
             </div>
           </div>
         </div>

@@ -48,14 +48,14 @@ const Contact = () => {
   };
 
   return (
-    <section id="contactus" className="section gray-bg">
+    <section >
       <div className="container">
         <div className="row sm-m-25px-b m-35px-b">
           <div className="col-md-12">
             <div className="section-title">
-              <h3 className="dark-color text-uppercase">Get in touch</h3>
+              <h3 className="white-color text-uppercase">Contactar</h3>
               <p className="text-uppercase small">
-                A Lead UX &amp; UI designer based in Canada
+              Desarollador Full Stack basado en Argentina
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 m-15px-tb">
             <div className="contact-form box-shadow">
-              <h4 className="dark-color font-alt m-20px-b">Say Something</h4>
+              <h4 className="dark-color font-alt m-20px-b">Mensaje</h4>
               <form onSubmit={(e) => onSubmit(e)} className="row">
                 <div className="col-md-6">
                   <div className="form-group">
@@ -73,7 +73,7 @@ const Contact = () => {
                       onChange={(e) => onChange(e)}
                       value={name}
                       id="name"
-                      placeholder="Name *"
+                      placeholder="Nombre *"
                       className={`form-control ${
                         error ? (name.length !== 0 ? "" : "invalid") : ""
                       }`}
@@ -105,7 +105,7 @@ const Contact = () => {
                       onChange={(e) => onChange(e)}
                       value={subject}
                       id="subject"
-                      placeholder="Subject *"
+                      placeholder="Asunto"
                       className={`form-control ${
                         error ? (subject.length !== 0 ? "" : "invalid") : ""
                       }`}
@@ -121,7 +121,7 @@ const Contact = () => {
                       onChange={(e) => onChange(e)}
                       value={message}
                       id="message"
-                      placeholder="Your message *"
+                      placeholder="Mensaje *"
                       rows={3}
                       className={`form-control ${
                         error ? (message.length !== 0 ? "" : "invalid") : ""
@@ -159,9 +159,9 @@ const Contact = () => {
                 <i className="ti-location-pin" />
               </div>
               <div className="media-body">
-                <h6 className="dark-color font-alt">Our Address</h6>
-                <p>
-                  123 Stree New York City , United States Of America 750065.
+                <h6 className="dark-color font-alt">Localida</h6>
+                <p className="dark-color font-alt">
+                  Tandil, Buenos Aires, Argentina (GMT -3)
                 </p>
               </div>
             </div>
@@ -170,11 +170,9 @@ const Contact = () => {
                 <i className="ti-mobile" />
               </div>
               <div className="media-body">
-                <h6 className="dark-color font-alt">Our Phone</h6>
+                <h6 className="dark-color font-alt">Telefono</h6>
                 <p>
-                  Office: +004 44444 44444
-                  <br />
-                  Office: +004 44444 44444
+                  0054 2494 646 055
                   <br />
                 </p>
               </div>
@@ -184,11 +182,9 @@ const Contact = () => {
                 <i className="ti-email" />
               </div>
               <div className="media-body">
-                <h6 className="dark-color font-alt">Our Email</h6>
-                <p>
-                  info@domainname.com
-                  <br />
-                  contact@domainname.com
+                <h6 className="dark-color font-alt">Email</h6>
+                <p className="dark-color font-alt">
+                  lionelcassar92@gmail.com
                 </p>
               </div>
             </div>

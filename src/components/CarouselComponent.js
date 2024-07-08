@@ -2,7 +2,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
+import Presentacion from "@/src/components/Presentacion";
 import Tecnologias from "@/src/components/Tecnologias";
+import Experience from "@/src/components/Experience";
+/* import Work from "@/src/components/Work"; */
+/*import About from "@/src/components/About";
+import Skills from "@/src/components/Skills";
+import Testiminails from "@/src/components/Testiminails"; */
+import Contact from "@/src/components/Contact";
+
 
 // Register Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -20,15 +28,16 @@ const CarouselComponent = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><Tecnologias /> </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><Presentacion /></SwiperSlide>
+        <SwiperSlide><Tecnologias /></SwiperSlide>
+        <SwiperSlide><Experience /></SwiperSlide>
+        <SwiperSlide><Contact /></SwiperSlide>
+         {/* <SwiperSlide><Work /></SwiperSlide> */}
+        {/*
+         <SwiperSlide><Skills /></SwiperSlide>
+        <SwiperSlide><About /></SwiperSlide>
+        <SwiperSlide><Testiminails /></SwiperSlide> 
+        */}
       </Swiper>
   );
 };

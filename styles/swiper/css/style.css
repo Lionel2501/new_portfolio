@@ -1,48 +1,50 @@
 #app {
-    height: 100%;
-  }
-  html,
-  body {
-    position: relative;
-    height: 100%;
-  }
-  
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: transparent;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  justify-self: center;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mySwiper {
     /* position: absolute; */
     color: #f9f1e9;
@@ -52,5 +54,65 @@
     transform: translate3d(-50%, -50%, 0);
     /* width: 100%; */
     height: -moz-fit-content;
-    height: 90%;
+    /* height: 90%; */
+}
+
+.presentation-section {
+  padding: 60px 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.btn-bar .btn {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  flex: 1 1 calc(50% - 20px);
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.project-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-icons a {
+  font-size: 1.5em;
+  margin: 0 10px;
 }

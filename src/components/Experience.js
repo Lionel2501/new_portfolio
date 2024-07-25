@@ -17,8 +17,8 @@ const Experience = () => {
   };
 
   return (
-    <section >
-      <div className="container">
+    <section id="#experience">
+      <div className="container" >
         <div className="row sm-m-25px-b m-35px-b">
           <div className="col-md-12">
             <div className="section-title">
@@ -44,13 +44,17 @@ const Experience = () => {
                 <div className="experience_intro_job">2023 - hasta la actualida</div>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{
-                    marginTop: '30px',
-                    backgroundColor: 'white',
+                    marginTop: '10px',
+                    backgroundColor: 'transparent',
+                    color: 'white',
+                    border: '1px white solid',
                     '&:hover': {
-                      backgroundColor: 'white'
+                      backgroundColor: '#d9832e',
+                      color: 'white',
+                      border: '1px white solid',
                     }
                   }} variant="outlined" onClick={handleClickOpen}>
-                    más info
+                    leer más
                   </Button>
                 </div>
                 <ExpericienceWippie open={open} onOpen={handleDataFromChild}/>
@@ -73,10 +77,14 @@ const Experience = () => {
               <div className="experience_intro_job">2021 - 2023</div>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <Button sx={{
-                    marginTop: '30px',
+                    marginTop: '10px',
                     backgroundColor: 'transparent',
+                    color: 'white',
+                    border: '1px white solid',
                     '&:hover': {
-                      backgroundColor: 'white'
+                      backgroundColor: '#d9832e',
+                      color: 'white',
+                      border: '1px white solid',
                     }
                   }} variant="outlined" onClick={handleClickOpen}>
                     leer más
@@ -100,13 +108,17 @@ const Experience = () => {
                 <div className="experience_intro_job">2021</div>
                   <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <Button sx={{
-                      marginTop: '30px',
-                      backgroundColor: 'white',
+                      marginTop: '10px',
+                      backgroundColor: 'transparent',
+                      color: 'white',
+                      border: '1px white solid',
                       '&:hover': {
-                        backgroundColor: 'white'
+                        backgroundColor: '#d9832e',
+                        color: 'white',
+                        border: '1px white solid',
                       }
                     }} variant="outlined" onClick={handleClickOpen}>
-                      más info
+                      leer más
                     </Button>
                   </div>
                   <ExpericienceWippie open={open} onOpen={handleDataFromChild}/>

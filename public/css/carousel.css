@@ -30,16 +30,16 @@ span {
 	transform: rotateY( 40deg) translateZ(430px); 
 	background-repeat: no-repeat;
 	background-clip: padding-box;
-	width: 300px;
-	height: 200px;
+	width: 180px;
+	height: 150px;
 }
 .carousel__face:nth-child(2) { 
 	background-image: url("../img/hc_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
 	background-position: center; 
 	transform: rotateY(240deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 265px;
+	height: 150px;
 }
 .carousel__face:nth-child(3) {
 	background-image: url("../img/js_logo.png");
@@ -48,56 +48,56 @@ span {
     background-position: center; 
 	background-repeat: no-repeat;
 	background-clip: padding-box;
-	width: 300px;
-	height: 200px;
+	width: 180px;
+	height: 150px;
 }
 .carousel__face:nth-child(4) { 
 	background-image: url("../img/php_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	transform: rotateY(160deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 180px;
+	height: 150px;
 }
 .carousel__face:nth-child(5) {
 	background-image: url("../img/laravel_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
   	background-position: center; 
 	transform: rotateY(  0deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 180px;
+	height: 150px;
 }
 .carousel__face:nth-child(6) {
 	background-image: url("../img/react_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	transform: rotateY(120deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 220px;
+	height: 150px;
 }
 .carousel__face:nth-child(7) { 
 	background-image: url("../img/mysql_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	transform: rotateY(200deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 180px;
+	height: 150px;
 }
 .carousel__face:nth-child(8) {
 	background-image: url("../img/mongo_db_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	transform: rotateY(280deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 190px;
+	height: 150px;
 }
 .carousel__face:nth-child(9) {
 	background-image: url("../img/github_logo_.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	transform: rotateY(320deg) translateZ(430px); 
-	width: 300px;
-	height: 200px;
+	width: 180px;
+	height: 150px;
 }
 
 .container_carousel {
@@ -106,11 +106,12 @@ span {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 30%;
+	top: 70%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 	width: 320px;
+	height: 70%;
 	margin: 100px auto 0 auto;
 	perspective: 1000px;
 }

@@ -12,14 +12,8 @@ const Tecnologias = () => {
               </div>
             </div>
           </div>
-          <div class="code">
-              <span class="keyword">const </span> 
-              <span class="variable">example</span> 
-              <span class="operator">=</span> 
-              <span class="string">'Hello, World!'</span>;
-          </div>
           <div className="row">
-            <div className="container_carousel ">
+            <div className="container_carousel">
                 <div className="carousel_main">
                 <div className="carousel__face"><span></span></div>
                 <div className="carousel__face"><span></span></div>

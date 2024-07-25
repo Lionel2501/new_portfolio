@@ -5959,7 +5959,7 @@ h6 {
 /* Services
 ------------------*/
 .feature-box-1 {
-  padding: 40px 30px;
+  padding: 10px 10px;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid #eee;
   border-radius: 5px;
@@ -5968,6 +5968,7 @@ h6 {
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
   height: fit-content;
+  /* display: grid; */
 }
 .feature-box-1 .icon {
   width: 80px;
@@ -6190,7 +6191,7 @@ h6 {
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
-  color: #090a0c;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .contact-form .form-group {
@@ -6290,7 +6291,7 @@ a {
   font-size: 24px;
 }
 
-p {
+/* p {
   font-weight: 700;
   text-align: center;
   font-size: 40px;
@@ -6303,9 +6304,10 @@ p {
   -webkit-text-fill-color: transparent;
   background-repeat: no-repeat;
   background-size: 100%;
-  animation: shine 5s linear 3; /* Cambiado de 'infinite' a '1' para reproducirse solo una vez */
+  animation: shine 5s linear 3;
   position: relative;
-}
+} 
+*/
 
 @keyframes shine {
   0% {
@@ -6315,3 +6317,69 @@ p {
     background-position-x: 500%;
   }
 }
+
+
+.m-btn.enviarButton {
+  color: #ffffff;
+  background: #090a0c;
+  border: 1px #d9832e solid;
+  border-radius: 4px;
+}
+.m-btn.enviarButton:hover {
+  background: #d9832e;
+  border-color: #d9832e;
+}
+
+@keyframes disappearToCenter {
+  0% {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+  }
+  30% {
+    opacity: 0.3;
+    transform: scale(0) translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) translate(-50%, -50%);
+  }
+}
+
+.matrix-body {
+  background-color: black;
+  color: green;
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  margin: 0;
+  transition: background-color 4s ease;
+  width: 100%;
+}
+
+.matrix-body.transparent {
+  background-color: transparent;
+  z-index: 0;
+}
+
+.matrix-text {
+  width: 70%;
+  font-size: 1.5em;
+  text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
+  transform-origin: center;
+}
+
+.matrix-text.hidden {
+  animation: disappearToCenter 0.5s forwards;
+}
+
+
+

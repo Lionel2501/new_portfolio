@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 m-15px-tb">
             <div className="contact-form box-shadow">
-              <h4 className="dark-color font-alt m-20px-b">Mensaje</h4>
+              <h4 className="white-color font-alt m-20px-b">Mensaje</h4>
               <form onSubmit={(e) => onSubmit(e)} className="row">
                 <div className="col-md-6">
                   <div className="form-group">
@@ -123,6 +123,7 @@ const Contact = () => {
                       id="message"
                       placeholder="Mensaje *"
                       rows={3}
+                      style={{ background: 'white'}}
                       className={`form-control ${
                         error ? (message.length !== 0 ? "" : "invalid") : ""
                       }`}
@@ -133,12 +134,12 @@ const Contact = () => {
                 <div className="col-md-12">
                   <div className="send">
                     <button
-                      className="m-btn m-btn-theme"
+                      className="m-btn enviarButton"
                       type="submit"
                       value="Send"
                     >
                       {" "}
-                      send message
+                      Enviar
                     </button>
                   </div>
                   <span
@@ -146,23 +147,24 @@ const Contact = () => {
                     className="text-success"
                     style={{ display: success ? "block" : "none" }}
                   >
-                    Message Sent Successfully
+                    El mensaje se envió corectamente
                   </span>
                 </div>
               </form>
             </div>
           </div>{" "}
           {/* col */}
-          <div className="col-lg-4 m-15px-tb">
+          <div className="col-lg-4 m-15px-tb" style={{ 
+              display: "flex",
+              flexDirection: "column", 
+              justifyContent: "space-between"
+          }}>
             <div className="contact-info media box-shadow">
               <div className="icon">
                 <i className="ti-location-pin" />
               </div>
               <div className="media-body">
-                <h6 className="dark-color font-alt">Localida</h6>
-                <p className="dark-color font-alt">
-                  Tandil, Buenos Aires, Argentina (GMT -3)
-                </p>
+                <p className="white-color font-alt">Localida: Tandil, Buenos Aires, Argentina (GMT -3)</p>
               </div>
             </div>
             <div className="contact-info media box-shadow">
@@ -170,11 +172,7 @@ const Contact = () => {
                 <i className="ti-mobile" />
               </div>
               <div className="media-body">
-                <h6 className="dark-color font-alt">Telefono</h6>
-                <p>
-                  0054 2494 646 055
-                  <br />
-                </p>
+                <p className="white-color font-alt">Telefono: 0054 2494 646 055</p>
               </div>
             </div>
             <div className="contact-info media box-shadow">
@@ -182,10 +180,7 @@ const Contact = () => {
                 <i className="ti-email" />
               </div>
               <div className="media-body">
-                <h6 className="dark-color font-alt">Email</h6>
-                <p className="dark-color font-alt">
-                  lionelcassar92@gmail.com
-                </p>
+                <p className="white-color font-alt">Email: lionelcassar92@gmail.com</p>
               </div>
             </div>
           </div>

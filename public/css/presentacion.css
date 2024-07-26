@@ -23,3 +23,79 @@
 .code .string {
     color: #ce9178;
 }
+
+.presentacion_box {
+    padding: 10px 10px;
+    background: rgba(0, 0, 0, 0.2);
+    /* border: 1px solid #eee; */
+    border-radius: 500px;
+    position: relative;
+    margin-top: 1%;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    /* height: 100%; */
+    display: flex;
+}
+
+.bodyPersona {
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+    color: #d4d4d4;
+    margin: 0;
+    text-align: left;
+    border: 1px solid #3c3c3c;
+    border-radius: 8px;
+  }
+  
+.persona {
+    background-color: transparent;
+    /* border: 1px solid #3c3c3c; */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.keyWordVSC {
+    color: #569CD6;
+    font-size: 25px;
+}
+
+.textoVSC {
+    color: #CE9178;
+    font-size: 25px;
+}
+
+.propVSC {
+    color: #9CDCFE;
+    font-size: 25px;
+}
+
+.variableVSC{
+    color: #9CDCFE;
+    font-size: 25px;
+}
+
+.numVSC {
+    color: #B5CEA8;
+    font-size: 25px;
+}
+
+.objectVSC {
+    color: #4EC9B0;
+    font-size: 25px;
+}
+
+.violetVSC {
+    color: #C586C0;
+    font-size: 25px;
+}
+
+.simpleVSC {
+    font-size: 20px;
+}
+
+.presentacion_datos {
+    display: "flex";
+    flex-direction: "column";
+    justify-content: "space-between";
+}

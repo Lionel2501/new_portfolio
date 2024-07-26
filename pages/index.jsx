@@ -14,11 +14,10 @@ const Work = dynamic(() => import("@/src/components/Work"), {
 });
 
 const Index1 = () => {
-  const [toggle, setToggle] = useState(false);
 
   return (
     <Fragment>
-      <CarouselComponent />
+        <CarouselComponent />
 {/*         <Presentacion />*/}
         {/* <Tecnologias />  */}
         {/* <Experience /> */}

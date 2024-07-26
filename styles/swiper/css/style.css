@@ -30,14 +30,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .swiper-slide img {
-  display: block;
+/*   display: block;
   width: 50%;
   height: 100%;
   object-fit: cover;
-  justify-self: center;
+  justify-self: center; */
 }
 
 .swiper {

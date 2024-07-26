@@ -18,7 +18,7 @@ const Experience = () => {
 
   return (
     <section id="#experience">
-      <div className="container" >
+      <div className="container" style={{ height: "100%"}}>
         <div className="row sm-m-25px-b m-35px-b">
           <div className="col-md-12">
             <div className="section-title">
@@ -29,10 +29,9 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="row">
-          {/* feaure box */}
+        <div className="experience_box">
           <div className="col-sm-6 col-lg-4 m-15px-tb">
-            <div className="feature-box-1 box-shadow-lg">
+            <div className="feature-box-1 box-shadow-lg" style={{ height: "100%"}}>
 {/*               <div className="icon">
                 <i className="icon-desktop" />
               </div> */}
@@ -61,10 +60,8 @@ const Experience = () => {
               </div>
             </div>
           </div>
-          {/* / */}
-          {/* feaure box */}
           <div className="col-sm-6 col-lg-4 m-15px-tb">
-            <div className="feature-box-1 box-shadow-lg">
+            <div className="feature-box-1 box-shadow-lg" style={{ height: "100%"}}>
 {/*               <div className="icon">
                 <i className="icon-pricetags" />
               </div> */}
@@ -94,10 +91,8 @@ const Experience = () => {
               </div>
             </div>
           </div>
-          {/* / */}
-          {/* feaure box */}
           <div className="col-sm-6 col-lg-4 m-15px-tb">
-            <div className="feature-box-1 box-shadow-lg">
+            <div className="feature-box-1 box-shadow-lg" style={{ height: "100%"}}>
 {/*               <div className="icon">
                 <i className="icon-chat" />
               </div> */}

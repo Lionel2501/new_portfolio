@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Fragment>
-        <TypingAnimation  />
+        <TypingAnimation />
         <div id="large-header" className="large-header">
           <canvas id="demo-canvas"></canvas>
           <Component {...pageProps} />

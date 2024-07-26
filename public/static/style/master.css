@@ -770,6 +770,10 @@ h6 {
   margin: 0;
 }
 
+.section-title{
+  margin-bottom: 2%;
+}
+
 .section-title h3 {
   font-weight: 700;
   font-size: 35px;
@@ -793,8 +797,8 @@ h6 {
 }
 .section-title p {
   margin: 0;
-  font-size: 14px;
-  letter-spacing: 2px;
+  font-size: 10px;
+  letter-spacing: 4px;
 }
 
 .skill-lt:not(:first-child) {
@@ -5960,7 +5964,7 @@ h6 {
 ------------------*/
 .feature-box-1 {
   padding: 10px 10px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   border: 1px solid #eee;
   border-radius: 5px;
   position: relative;
@@ -6361,15 +6365,17 @@ a {
   margin: 0;
   transition: background-color 4s ease;
   width: 100%;
+  text-align: left;
 }
 
 .matrix-body.transparent {
+  position: fixed;
   background-color: transparent;
   z-index: 0;
 }
 
 .matrix-text {
-  width: 70%;
+  width: 60%;
   font-size: 1.5em;
   text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green;
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -6381,5 +6387,8 @@ a {
   animation: disappearToCenter 0.5s forwards;
 }
 
-
+section {
+  height: 92%;
+  align-content: center;
+}
 

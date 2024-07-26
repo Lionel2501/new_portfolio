@@ -31,6 +31,11 @@
     align-items:  center;
 }
 
+.experience_box {
+    display: flex;
+    height: 80%;
+}
+
 /* .feature_content_experience {
     height: 300px;
 } */

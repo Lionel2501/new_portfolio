@@ -26,7 +26,7 @@
 
 .presentacion_box {
     padding: 10px 10px;
-    background: rgba(0, 0, 0, 0.2);
+    /* background: rgba(0, 0, 0, 0.2); */
     /* border: 1px solid #eee; */
     border-radius: 500px;
     position: relative;
@@ -57,37 +57,37 @@
 
 .keyWordVSC {
     color: #569CD6;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .textoVSC {
     color: #CE9178;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .propVSC {
     color: #9CDCFE;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .variableVSC{
     color: #9CDCFE;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .numVSC {
     color: #B5CEA8;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .objectVSC {
     color: #4EC9B0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .violetVSC {
     color: #C586C0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .simpleVSC {
@@ -98,4 +98,11 @@
     display: "flex";
     flex-direction: "column";
     justify-content: "space-between";
+}
+
+.icons_datos {
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+    align-items: center;
 }

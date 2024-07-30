@@ -36,6 +36,26 @@
     height: 80%;
 }
 
+.experience_card {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experience_button {
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.experience_button:hover {
+    background-color: #d9832e;
+    color: white;
+    border: 1px solid white;
+}
+
 /* .feature_content_experience {
     height: 300px;
 } */

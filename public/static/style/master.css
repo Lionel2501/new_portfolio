@@ -5971,7 +5971,7 @@ h6 {
   top: 0;
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
-  height: fit-content;
+  /* height: fit-content; */
   /* display: grid; */
 }
 .feature-box-1 .icon {
@@ -6392,3 +6392,7 @@ section {
   align-content: center;
 }
 
+.container {
+  height: 100%;
+  padding: 0;
+}

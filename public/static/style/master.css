@@ -6243,6 +6243,7 @@ h6 {
   border: 1px solid #fff;
   padding: 20px;
   border-radius: 5px;
+  height: 100%;
 }
 .contact-info:not(:first-child) {
   margin-top: 20px;
@@ -6349,14 +6350,14 @@ a {
   }
 }
 
-.matrix-body {
+._matrix-body {
   background-color: black;
   color: green;
   font-family: 'Share Tech Mono', monospace;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
@@ -6368,13 +6369,13 @@ a {
   text-align: left;
 }
 
-.matrix-body.transparent {
+._matrix-body.transparent {
   position: fixed;
   background-color: transparent;
   z-index: 0;
 }
 
-.matrix-text {
+._matrix-text {
   width: 60%;
   font-size: 1.5em;
   text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green;
@@ -6383,7 +6384,7 @@ a {
   transform-origin: center;
 }
 
-.matrix-text.hidden {
+._matrix-text.hidden {
   animation: disappearToCenter 0.5s forwards;
 }
 

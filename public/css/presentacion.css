@@ -25,79 +25,36 @@
 }
 
 .presentacion_box {
-    padding: 10px 10px;
-    /* background: rgba(0, 0, 0, 0.2); */
-    /* border: 1px solid #eee; */
-    border-radius: 500px;
-    position: relative;
-    margin-top: 1%;
+    margin-top: 3%;
     -webkit-transition: ease all 0.35s;
-    transition: ease all 0.35s;
-    /* height: 100%; */
+    transition: ease all 1s;
     display: flex;
-}
-
-.bodyPersona {
-    background: rgba(0, 0, 0, 0.5);
-    font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
-    color: #d4d4d4;
-    margin: 0;
-    text-align: left;
-    border: 1px solid #3c3c3c;
-    border-radius: 8px;
-  }
-  
-.persona {
-    background-color: transparent;
-    /* border: 1px solid #3c3c3c; */
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.keyWordVSC {
-    color: #569CD6;
-    font-size: 20px;
-}
-
-.textoVSC {
-    color: #CE9178;
-    font-size: 20px;
-}
-
-.propVSC {
-    color: #9CDCFE;
-    font-size: 20px;
-}
-
-.variableVSC{
-    color: #9CDCFE;
-    font-size: 20px;
-}
-
-.numVSC {
-    color: #B5CEA8;
-    font-size: 20px;
-}
-
-.objectVSC {
-    color: #4EC9B0;
-    font-size: 20px;
-}
-
-.violetVSC {
-    color: #C586C0;
-    font-size: 20px;
-}
-
-.simpleVSC {
-    font-size: 20px;
+    justify-content: center;
+    gap: 4%;
+    margin: 3% 2%;
 }
 
 .presentacion_datos {
-    display: "flex";
-    flex-direction: "column";
-    justify-content: "space-between";
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.presentacion_datos_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.presentacion_text {
+    padding: 0;
+/*     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; */
 }
 
 .icons_datos {
@@ -105,4 +62,81 @@
     margin-bottom: 10px;
     text-align: left;
     align-items: center;
+}
+
+.matrix-body {
+    color: green;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #3c3c3c;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.matrix-body.transparent {
+    position: fixed;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.matrix-text {
+    width: 100%;
+    font-size: 1em;
+    text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    transform-origin: center;
+    margin: 0;
+}
+
+.matrix-text.hidden {
+    animation: disappearToCenter 0.5s forwards;
+}
+
+.presentacion-info {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+    align-items: center;
+}
+.presentacion-info:not(:first-child) {
+    margin-top: 20px;
+}
+.presentacion-info .icon {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #d9832e;
+    font-size: 19px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.presentacion-info .media-body h6 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #090a0c;
+    margin-bottom: 8px;
+}
+.presentacion-info .media-body p {
+    margin: 0;
+    font-size: 14px;
+}/*# sourceMappingURL=master.css.map */
+
+.presentacion_title {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
 }

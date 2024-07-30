@@ -36,3 +36,60 @@
     margin-top: 20%;
     display: flex;
 }
+
+.bodyPersona {
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+    color: #d4d4d4;
+    margin: 0;
+    text-align: left;
+    border: 1px solid #3c3c3c;
+    border-radius: 8px;
+  }
+  
+.persona {
+    background-color: transparent;
+    /* border: 1px solid #3c3c3c; */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.keyWordVSC {
+    color: #569CD6;
+    font-size: 20px;
+}
+
+.textoVSC {
+    color: #CE9178;
+    font-size: 20px;
+}
+
+.propVSC {
+    color: #9CDCFE;
+    font-size: 20px;
+}
+
+.variableVSC{
+    color: #9CDCFE;
+    font-size: 20px;
+}
+
+.numVSC {
+    color: #B5CEA8;
+    font-size: 20px;
+}
+
+.objectVSC {
+    color: #4EC9B0;
+    font-size: 20px;
+}
+
+.violetVSC {
+    color: #C586C0;
+    font-size: 20px;
+}
+
+.simpleVSC {
+    font-size: 20px;
+}

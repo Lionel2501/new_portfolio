@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import FormEmail from "./FormEmail";
 
 const Contact = () => {
   const [mailData, setMailData] = useState({
@@ -60,132 +61,14 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        {/* form */}
-        <div className="row justify-content-center">
-          <div className="col-lg-8 m-15px-tb">
+        <div className="row justify-content-center contact_box">
+          <div className="col-lg-10 m-15px-tb">
             <div className="contact-form box-shadow">
               <h4 className="white-color font-alt m-20px-b">Mensaje</h4>
-              <form onSubmit={(e) => onSubmit(e)} className="row">
-                <div className="col-md-6">
-                  <div className="form-group">
-                    <input
-                      name="name"
-                      onChange={(e) => onChange(e)}
-                      value={name}
-                      id="name"
-                      placeholder="Nombre *"
-                      className={`form-control ${
-                        error ? (name.length !== 0 ? "" : "invalid") : ""
-                      }`}
-                      type="text"
-                    />
-                    <span className="input-focus-effect theme-bg" />
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="form-group">
-                    <input
-                      name="email"
-                      onChange={(e) => onChange(e)}
-                      value={email}
-                      id="email"
-                      placeholder="Email *"
-                      className={`form-control ${
-                        error ? (email.length !== 0 ? "" : "invalid") : ""
-                      }`}
-                      type="email"
-                    />
-                    <span className="input-focus-effect theme-bg" />
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="form-group">
-                    <input
-                      name="subject"
-                      onChange={(e) => onChange(e)}
-                      value={subject}
-                      id="subject"
-                      placeholder="Asunto"
-                      className={`form-control ${
-                        error ? (subject.length !== 0 ? "" : "invalid") : ""
-                      }`}
-                      type="text"
-                    />
-                    <span className="input-focus-effect theme-bg" />
-                  </div>
-                </div>
-                <div className="col-md-12">
-                  <div className="form-group">
-                    <textarea
-                      name="message"
-                      onChange={(e) => onChange(e)}
-                      value={message}
-                      id="message"
-                      placeholder="Mensaje *"
-                      rows={3}
-                      style={{ background: 'white'}}
-                      className={`form-control ${
-                        error ? (message.length !== 0 ? "" : "invalid") : ""
-                      }`}
-                    />
-                    <span className="input-focus-effect theme-bg" />
-                  </div>
-                </div>
-                <div className="col-md-12">
-                  <div className="send">
-                    <button
-                      className="m-btn enviarButton"
-                      type="submit"
-                      value="Send"
-                    >
-                      {" "}
-                      Enviar
-                    </button>
-                  </div>
-                  <span
-                    id="suce_message"
-                    className="text-success"
-                    style={{ display: success ? "block" : "none" }}
-                  >
-                    El mensaje se envió corectamente
-                  </span>
-                </div>
-              </form>
-            </div>
-          </div>{" "}
-          {/* col */}
-          <div className="col-lg-4 m-15px-tb" style={{ 
-              display: "flex",
-              flexDirection: "column", 
-              justifyContent: "space-between"
-          }}>
-            <div className="contact-info media box-shadow">
-              <div className="icon">
-                <i className="ti-location-pin" />
-              </div>
-              <div className="media-body">
-                <p className="white-color font-alt">Localida: Tandil, Buenos Aires, Argentina (GMT -3)</p>
-              </div>
-            </div>
-            <div className="contact-info media box-shadow">
-              <div className="icon">
-                <i className="ti-mobile" />
-              </div>
-              <div className="media-body">
-                <p className="white-color font-alt">Telefono: 0054 2494 646 055</p>
-              </div>
-            </div>
-            <div className="contact-info media box-shadow">
-              <div className="icon">
-                <i className="ti-email" />
-              </div>
-              <div className="media-body">
-                <p className="white-color font-alt">Email: lionelcassar92@gmail.com</p>
-              </div>
+                <FormEmail />
             </div>
           </div>
         </div>
-        {/* end form */}
       </div>
     </section>
   );

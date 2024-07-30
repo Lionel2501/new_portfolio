@@ -1,81 +1,42 @@
-import DialogTitle from '@mui/material/DialogTitle';
-import DialogContent from '@mui/material/DialogContent';
-import DialogActions from '@mui/material/DialogActions';
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
-import Typography from '@mui/material/Typography';
-import { styled } from '@mui/material/styles';
-import Dialog from '@mui/material/Dialog';
-import { useEffect, useState } from 'react';
+import ExpericienceGrupoAgniDialog from './expericienceGrupoAgniDialog';
 import Button from '@mui/material/Button';
+import { useState } from 'react';
 
-const BootstrapDialog = styled(Dialog)(({ theme }) => ({
-  '& .MuiDialogContent-root': {
-    padding: theme.spacing(2),
-  },
-  '& .MuiDialogActions-root': {
-    padding: theme.spacing(1),
-  },
-}));
+const ExpericienceGrupoAgni = () => {
+  const [open, setOpen] = useState(false);
 
-const ExpericienceGrupoAgni = ({open, onOpen}) => {
-
-  const [_open, setOpen] = useState(false);
-
-  const handleClose = () => {
-    setOpen(false);
-    if (typeof onOpen === 'function') {
-      onOpen(false);
-    }
+  const handleClickOpen = () => {
+    setOpen(true);
   };
 
-  useEffect(() => {
-    setOpen(open)
-  }, [open]);
+  const handleDataFromChild = (data) => {
+    setOpen(data);
+  };
 
   return (
-    <BootstrapDialog
-      onClose={handleClose}
-      aria-labelledby="customized-dialog-title"
-      open={_open}
-    >
-      <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-        Modal title
-      </DialogTitle>
-      <IconButton
-        aria-label="close"
-        onClick={handleClose}
-        sx={{
-          position: 'absolute',
-          right: 8,
-          top: 8,
-          color: (theme) => theme.palette.grey[500],
-        }}
-      >
-        <CloseIcon />
-      </IconButton>
-      <DialogContent dividers>
-        <Typography gutterBottom>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </Typography>
-        <Typography gutterBottom>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-        </Typography>
-        <Typography gutterBottom>
-          Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus
-          magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec
-          ullamcorper nulla non metus auctor fringilla.
-        </Typography>
-      </DialogContent>
-{/*       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Save changes
-        </Button>
-      </DialogActions> */}
-    </BootstrapDialog>
+    <div className="col-sm-6 col-lg-4 m-15px-tb" style={{ height: "100%"}}>
+      <div className="feature-box-1 box-shadow-lg experience_card">
+  {/*               <div className="icon">
+          <i className="icon-pricetags" />
+        </div> */}
+        <div className='experience_img'>
+          <img className='grupo_agni_img' src="/img/grupo_agni.png" />
+        </div>
+        <div>
+          <div className="experience_title_job">Grupo Agni</div>
+          <div className="experience_intro_job">2021 - 2023</div>
+        </div>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <Button 
+            className='experience_button'
+            variant="outlined" 
+            onClick={handleClickOpen}>
+              leer más
+          </Button>
+          <ExpericienceGrupoAgniDialog open={open} onOpen={handleDataFromChild}/>
+        </div>
+      </div>
+    </div>
   );
 };
 

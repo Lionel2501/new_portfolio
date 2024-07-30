@@ -26,9 +26,20 @@
     height: 300px;
 }
 
+.experience_img {
+    height: 8%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: 100%;
+}
+
 .grupo_agni_img {
-    height: 100px;
-    align-items:  center;
+    padding: 50px;
+}
+
+.wippie_img {
+    padding: 50px;
 }
 
 .experience_box {
@@ -44,7 +55,7 @@
 }
 
 .experience_button {
-    margin-top: 10px;
+    margin: 20px;
     background-color: transparent;
     color: white;
     border: 1px solid white;

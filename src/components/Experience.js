@@ -20,12 +20,10 @@ const Experience = () => {
           </div>
         </div>
         <div className="row justify-content-center contact_box">
-          <div className="col-lg-12 m-15px-tb">
-            <div className="experience_box">
+          <div className="col-lg-12 m-15px-tb experience_box">
               <ExpericienceArteYParte /> 
               <ExpericienceGrupoAgni /> 
               <ExpericienceWippie /> 
-            </div>
           </div>
         </div>
       </div>

@@ -99,8 +99,8 @@
 }
 
 .presentacion-info {
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #3c3c3c;
     padding: 20px;
     border-radius: 5px;
     height: 100%;
@@ -132,8 +132,8 @@
 }/*# sourceMappingURL=master.css.map */
 
 .presentacion_title {
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #3c3c3c;
     padding: 20px;
     border-radius: 5px;
     align-items: center;

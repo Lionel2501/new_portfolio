@@ -1,4 +1,18 @@
 .contact_box {
     display: flex;
+    /* height: 100%; */
+}
+
+.contact_datos {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_datos_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100%;
 }

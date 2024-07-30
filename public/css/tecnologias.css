@@ -26,7 +26,7 @@
 
 .tecnologias_box {
     padding: 10px 10px;
-    background: rgba(0, 0, 0, 0.3);
+    /* background: rgba(0, 0, 0, 0.5); */
     /* border: 1px solid #eee;
     border-radius: 5px; */
     position: relative;
@@ -38,7 +38,7 @@
 }
 
 .bodyPersona {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
     color: #d4d4d4;
     margin: 0;
@@ -57,39 +57,39 @@
 
 .keyWordVSC {
     color: #569CD6;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .textoVSC {
     color: #CE9178;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .propVSC {
     color: #9CDCFE;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .variableVSC{
     color: #9CDCFE;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .numVSC {
     color: #B5CEA8;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .objectVSC {
     color: #4EC9B0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .violetVSC {
     color: #C586C0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .simpleVSC {
-    font-size: 20px;
+    font-size: 16px;
 }

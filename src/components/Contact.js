@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import FormEmail from "./FormEmail";
+import ContactDatos from "./ContactDatos";
 
 const Contact = () => {
   const [mailData, setMailData] = useState({
@@ -62,12 +63,15 @@ const Contact = () => {
           </div>
         </div>
         <div className="row justify-content-center contact_box">
-          <div className="col-lg-10 m-15px-tb">
+          <div className="col-lg-8 m-15px-tb">
             <div className="contact-form box-shadow">
               <h4 className="white-color font-alt m-20px-b">Mensaje</h4>
                 <FormEmail />
             </div>
           </div>
+          <div className="col-lg-4 m-15px-tb contact_datos">
+            <ContactDatos /> 
+          </div> 
         </div>
       </div>
     </section>

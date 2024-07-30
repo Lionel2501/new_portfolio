@@ -8,6 +8,7 @@ import "../public/css/style.css";
 import "../public/css/experience.css";
 import "../public/css/presentacion.css";
 import "../public/css/tecnologias.css";
+import "../public/css/contact.css";
 import "@/styles/swiper/css/style.css";
 import "../public/static/style/master.css";
 import "../src/backgroundDinamic";
@@ -18,7 +19,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Fragment>
-        <TypingAnimation />
+        {/* <TypingAnimation /> */}
         <div id="large-header" className="large-header">
           <canvas id="demo-canvas"></canvas>
           <Component {...pageProps} />

@@ -51,7 +51,6 @@ const Contact = () => {
 
   return (
     <section >
-      <div className="container">
         <div className="row sm-m-25px-b m-35px-b">
           <div className="col-md-12">
             <div className="section-title">
@@ -62,6 +61,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      <div className="container">
+
         <div className="row justify-content-center contact_box">
           <div className="col-lg-8 m-15px-tb">
             <div className="contact-form box-shadow">

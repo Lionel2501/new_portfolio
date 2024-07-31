@@ -9,10 +9,12 @@ import "../public/css/experience.css";
 import "../public/css/presentacion.css";
 import "../public/css/tecnologias.css";
 import "../public/css/hearthstone.scss";
+import "../public/css/parallax.scss";
 import "../public/css/contact.css";
 import "@/styles/swiper/css/style.css";
 import "../public/static/style/master.css";
 import "../src/backgroundDinamic";
+import "../src/parallax";
 import TypingAnimation from "@/src/components/TypingAnimation";
 
 export default function App({ Component, pageProps }) {

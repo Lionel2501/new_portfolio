@@ -1,6 +1,7 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import PresentacionDatos from "./PresentacionDatos";
 import PresentacionText from "./PresentacionText";
+import Parallax from "./Parallax";
 
 const Presentacion = () => {
 
@@ -16,8 +17,10 @@ const Presentacion = () => {
                 </p>
               </div>
             </div>        
-            <div className="row col-md-12 justify-content-center contact_box">
-              <div className="col-md-12 m-15px-tb">
+            
+            <div className="col-md-12 m-15px-tb">
+            <Parallax />
+              {/* <div className="col-md-12 m-15px-tb">
                 <div className="presentacion_title">
                   Soy un programador full stack apasionado por construir soluciones completas y eficientes.
                 </div>
@@ -28,8 +31,8 @@ const Presentacion = () => {
                   <div className="col-md-6 presentacion_text">
                     <PresentacionText /> 
                   </div>
-                </div> 
-              </div>
+                </div>  
+              </div>*/}
             </div>
           </div>
         </div>    

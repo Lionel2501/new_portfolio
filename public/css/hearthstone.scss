@@ -38,8 +38,14 @@ body {
 }
 
 .card-face {
-  text-align: left;
-  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  justify-items: flex-end;
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-weight: 500;
+  /* padding-left: 10px; */
   bottom: 0;
   content: '';
   left: 0;
@@ -78,7 +84,8 @@ $total: 7;
   $offset: abs(($i - ($total - 1) / 2) / ($total - 2) * $offsetRange);
   .hearthstone_card:nth-child(#{$i + 1}) {
     .card-face {
-      background: linear-gradient(-135deg, hsla($hue, 100%, 80%, 1), hsla($hue, 90%, 45%, 1));
+      background: linear-gradient(100deg, #d9832e, #d9832e, transparent);
+      /* background: linear-gradient(-135deg, hsla($hue, 100%, 80%, 1), hsla($hue, 90%, 45%, 1)); */
       /* background: rgba(158, 149, 149, 0.9); */
 /*       box-shadow: 
         -5px 5px 5px hsla(0, 0%, 0%, 0.15),

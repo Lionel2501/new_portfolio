@@ -27,7 +27,7 @@ span {
 	background-image: url("../img/bootstrap_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
 	background-position: center; 
-	transform: rotateY( 40deg) translateZ(270px); 
+	transform: rotateY( 40deg) translateZ(350px); 
 	background-repeat: no-repeat;
 	background-clip: padding-box;
 	width: 180px;
@@ -37,13 +37,13 @@ span {
 	background-image: url("../img/python_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
 	background-position: center; 
-	transform: rotateY(240deg) translateZ(270px); 
+	transform: rotateY(240deg) translateZ(350px); 
 	width: 150px;
 	height: 130px;
 }
 .carousel__face:nth-child(3) {
 	background-image: url("../img/js_logo.png");
-	transform: rotateY( 80deg) translateZ(270px); 
+	transform: rotateY( 80deg) translateZ(350px); 
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
 	background-repeat: no-repeat;
@@ -55,7 +55,7 @@ span {
 	background-image: url("../img/php_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
-	transform: rotateY(160deg) translateZ(270px); 
+	transform: rotateY(160deg) translateZ(350px); 
 	width: 180px;
 	height: 150px;
 }
@@ -63,7 +63,7 @@ span {
 	background-image: url("../img/laravel_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
   	background-position: center; 
-	transform: rotateY(  0deg) translateZ(270px); 
+	transform: rotateY(  0deg) translateZ(350px); 
 	width: 180px;
 	height: 150px;
 }
@@ -71,7 +71,7 @@ span {
 	background-image: url("../img/react_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
-	transform: rotateY(120deg) translateZ(270px); 
+	transform: rotateY(120deg) translateZ(350px); 
 	width: 220px;
 	height: 150px;
 }
@@ -79,7 +79,7 @@ span {
 	background-image: url("../img/mysql_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
-	transform: rotateY(200deg) translateZ(270px); 
+	transform: rotateY(200deg) translateZ(350px); 
 	width: 180px;
 	height: 150px;
 }
@@ -87,7 +87,7 @@ span {
 	background-image: url("../img/mongo_db_logo.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
-	transform: rotateY(280deg) translateZ(270px); 
+	transform: rotateY(280deg) translateZ(350px); 
 	width: 190px;
 	height: 150px;
 }
@@ -95,7 +95,7 @@ span {
 	background-image: url("../img/github_logo_.png");
 	background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; 
-	transform: rotateY(320deg) translateZ(270px); 
+	transform: rotateY(320deg) translateZ(350px); 
 	width: 180px;
 	height: 150px;
 }
@@ -106,7 +106,7 @@ span {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 10%;
+	top: 20%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);

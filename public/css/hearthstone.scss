@@ -72,7 +72,7 @@ body {
 $total: 7;
 @for $i from 0 through ($total - 1) {
   $hue: 30;
-  $rotationRange: 0;
+  $rotationRange: 4;
   $rotation: ($i - ($total - 1) / 2) / ($total - 2) * $rotationRange;
   $offsetRange: 80;
   $offset: abs(($i - ($total - 1) / 2) / ($total - 2) * $offsetRange);
@@ -91,23 +91,29 @@ $total: 7;
       }
     }
     &:hover {
+      .hearthstone_body {
+          top: 0;
+      }
+      &:after {
+        top: 0;
+      }
       .card-face {
 /*         box-shadow: 
           0 10px 20px hsla(0, 0%, 0%, 0.4),
           inset 0 0 0 2px hsla($hue, 100%, 80%, 0.75)    
         ; */
-        transform: translateY(-100px) rotate(0deg) scale(3);
+        transform: translateY(-100px) translateX(#{(($total / 2) - $i) * 100}px) rotate(0deg) scale(2);
         transition-duration: 3000ms;
-        z-index: 500;
+        z-index: 5;
         background: rgba(0, 0, 0, 0.9);
         border: 1px solid #3c3c3c;
         &:after {
-          animation: fade 2250ms ease-out forwards;
+          animation: fade 1250ms ease-out forwards;
         }
       }
       &:after {
-        transform: translateY(-100px) rotate(0deg) scale(3);
-        top: -175px;  
+        transform: translateY(-50px) rotate(0deg) scale(2);
+        top: -175px; 
       }
     }
   }

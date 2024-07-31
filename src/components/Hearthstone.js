@@ -3,49 +3,48 @@ import * as React from 'react';
 const Hearthstone = () => {
     return (
         <>
-            <div class="hearthstone_body">
-                <div class="hearthstone_card">
-                    <div class="card-face">PHP
-                        
+            <div className="hearthstone_body">
+                <div className="hearthstone_card">
+                    <div className="card-face">PHP
                         {/* <img src="" alt="Imagen 1"> */}
                     </div>
-                    {/* <div class="card-label">1</div> */}
+                    {/* <div className="card-label">1</div> */}
                 </div>
-                <div class="hearthstone_card">
-                    <div class="card-face">MySql
+                <div className="hearthstone_card">
+                    <div className="card-face">MySql
                         {/* <img src="" alt="Imagen 2"> */}
                     </div>
-                    {/* <div class="card-label">2</div> */}
+                    {/* <div className="card-label">2</div> */}
                 </div>
-                <div class="hearthstone_card">
-                    <div class="card-face">CSS
+                <div className="hearthstone_card">
+                    <div className="card-face">CSS
                         {/* <img src="" alt="Imagen 3"> */}
                     </div>
-                    {/* <div class="card-label">3</div> */}
+                    {/* <div className="card-label">3</div> */}
                 </div>
-                <div class="hearthstone_card">
-                    <div class="card-face">JavaScript
+                <div className="hearthstone_card">
+                    <div className="card-face">JavaScript
                         {/* <img src="" alt="Imagen 4"> */}
                     </div>
-                    {/* <div class="card-label">4</div> */}
+                    {/* <div className="card-label">4</div> */}
                 </div>
-                <div class="hearthstone_card">
-                    <div class="card-face">React
+                <div className="hearthstone_card">
+                    <div className="card-face">React
                         {/* <img src="" alt="Imagen 5"> */}
                     </div>
-                    {/* <div class="card-label">5</div> */}
+                    {/* <div className="card-label">5</div> */}
                 </div>
-                <div class="hearthstone_card">
-                    <div class="card-face">Mongo DB
+                <div className="hearthstone_card">
+                    <div className="card-face">Mongo DB
                         {/* <img src="" alt="Imagen 6"> */}
                     </div>
-                    {/* <div class="card-label">6</div> */}
+                    {/* <div className="card-label">6</div> */}
                 </div>
-                <div class="hearthstone_card">
-                    <div class="card-face">Laravel
+                <div className="hearthstone_card">
+                    <div className="card-face">Laravel
                         {/* <img src="" alt="Imagen 7"> */}
                     </div>
-                    {/* <div class="card-label">7</div> */}
+                    {/* <div className="card-label">7</div> */}
                 </div>
             </div>
         </>

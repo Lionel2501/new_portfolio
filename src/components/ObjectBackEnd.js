@@ -2,8 +2,8 @@ const ObjectBackEnd = () => {
   
     return (
       <>
-        <div className="bodyPersona">
-            <div className="persona">
+        <div className="tecnologias_main">
+            <div className="tecnologia_box">
                 <span className="variableVSC">$back_end</span>
                 <span className="simpleVSC"> = </span>
                 <span className="keyWordVSC">new</span>

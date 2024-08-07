@@ -37,8 +37,8 @@
     display: flex;
 }
 
-.bodyPersona {
-    background: rgba(0, 0, 0, 0.7);
+.tecnologias_main {
+    background: rgba(0, 0, 0, 0.8);
     font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
     color: #d4d4d4;
     margin: 0;
@@ -47,12 +47,12 @@
     border-radius: 8px;
   }
   
-.persona {
+.tecnologia_box {
     background-color: transparent;
     /* border: 1px solid #3c3c3c; */
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .keyWordVSC {

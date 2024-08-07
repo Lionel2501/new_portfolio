@@ -2,8 +2,8 @@ const ObjectFrontEnd = () => {
   
     return (
       <>
-        <div className="bodyPersona">
-            <div className="persona">
+        <div className="tecnologias_main">
+            <div className="tecnologia_box">
                 <span className="keyWordVSC">const</span>
                 <span className="variableVSC"> frontEnd</span>
                 <span className="simpleVSC"> = </span>

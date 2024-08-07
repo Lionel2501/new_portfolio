@@ -18,8 +18,8 @@ const Presentacion = () => {
               </div>
             </div>        
             
-            <div className="col-md-12 m-15px-tb">
-            <Parallax />
+            <div className="col-md-12 parallax_body" id="parallax_main">
+              <Parallax />
               {/* <div className="col-md-12 m-15px-tb">
                 <div className="presentacion_title">
                   Soy un programador full stack apasionado por construir soluciones completas y eficientes.

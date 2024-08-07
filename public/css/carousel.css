@@ -106,12 +106,12 @@ span {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 20%;
+	top: 60%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 	width: 320px;
 	/* height: 500px; */
 	/* margin: 100px auto 0 auto; */
-	perspective: 3500px;
+	perspective: 1100px;
 }

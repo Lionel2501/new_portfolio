@@ -1,7 +1,7 @@
 import * as React from 'react';
-import ExpericienceWippie from './ExpericienceWippie';
+import ExpericienceArteYParte from './ExpericienceArteYparte';
 import ExpericienceGrupoAgni from './ExpericienceGrupoAgni';
-import ExpericienceArteYParte from './ExpericienceArteYParte';
+import ExpericienceWippie from './ExpericienceWippie';
 /* import { useState } from 'react'; */
 
 const Experience = () => {
@@ -19,7 +19,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center contact_box">
+        <div className="row justify-content-center experience_main">
           <div className="col-lg-12 m-15px-tb experience_box">
               <ExpericienceArteYParte /> 
               <ExpericienceGrupoAgni /> 

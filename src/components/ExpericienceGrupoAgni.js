@@ -19,14 +19,12 @@ const ExpericienceGrupoAgni = () => {
   {/*               <div className="icon">
           <i className="icon-pricetags" />
         </div> */}
+        <div className="experience_title_job">Desarrollador Full Stack</div>
         <div className='experience_img'>
           <img className='grupo_agni_img' src="/img/grupo_agni.png" />
         </div>
-        <div className='experience_title'>
-          <div className="experience_title_job">Grupo Agni</div>
-          <div className="experience_intro_job">2021 - 2023</div>
-        </div>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div className='experience_title_job'>Grupo Agni</div>
+        <div>
           <Button 
             className='experience_button'
             variant="outlined" 

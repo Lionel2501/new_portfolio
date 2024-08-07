@@ -1,4 +1,4 @@
-import ExpericienceWippieDialog from './ExpericienceWippieDialog';
+import ExpericienceWippieDialog from './expericienceWippieDialog';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
 
@@ -19,14 +19,12 @@ const ExpericienceWippie = () => {
   {/*               <div className="icon">
           <i className="icon-desktop" />
         </div> */}
+        <div className="experience_title_job">Desarrollador Full Stack</div>
         <div className='experience_img'>
           <img className='wippie_img' src="/img/wippie.png" alt="wippie_logo" />
         </div>
-        <div className="feature-content">
-          <div className="experience_title_job">Wippie</div>
-          <div className="experience_intro_job">2023 - hasta la actualida</div>
-        </div>
-        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div className="experience_title_job">Wippie</div>
+        <div>
           <Button 
             className='experience_button'
             variant="outlined" 

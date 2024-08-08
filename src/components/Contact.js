@@ -2,6 +2,7 @@ import emailjs from "emailjs-com";
 import { useState } from "react";
 import FormEmail from "./FormEmail";
 import ContactDatos from "./ContactDatos";
+import { Height } from "@mui/icons-material";
 
 const Contact = () => {
   const [mailData, setMailData] = useState({
@@ -51,26 +52,24 @@ const Contact = () => {
 
   return (
     <section >
-        <div className="row sm-m-25px-b m-35px-b">
-          <div className="col-md-12">
-            <div className="section-title">
-              <h3 className="white-color text-uppercase">Contactar</h3>
-              <p className="text-uppercase small">
+      <div className="container contact_main" style={{ height: "100%"}}>
+        {/* <div className="row full- p-10px-tb" style={{ height: "80%"}}> */}
+        <div className="col-md-12 m-15px-tb contact_title">
+          <div className="section-title">
+            <h3 className="white-color text-uppercase">CONTACTAR</h3>
+            <p className="text-uppercase small">
               Desarollador Full Stack basado en Argentina
-              </p>
-            </div>
+            </p>
           </div>
-        </div>
-      <div className="container">
-
-        <div className="row justify-content-center contact_box">
-          <div className="col-lg-8 m-15px-tb">
+        </div>  
+        <div className="col-md-12 contact_box">
+          <div className="col-lg-7 m-15px-tb contact_mensaje">
             <div className="contact-form box-shadow">
               <h4 className="white-color font-alt m-20px-b">Mensaje</h4>
-                <FormEmail />
+              <FormEmail />
             </div>
           </div>
-          <div className="col-lg-4 m-15px-tb contact_datos">
+          <div className="col-lg-5 m-15px-tb contact_datos">
             <ContactDatos /> 
           </div> 
         </div>

@@ -8,7 +8,7 @@ const Presentacion = () => {
     return (
       <section >
         <div className="container" style={{ height: "100%"}}>
-          <div className="row full- p-10px-tb" style={{ height: "80%"}}>
+          {/* <div className="row full- p-10px-tb" style={{ height: "80%"}}> */}
             <div className="col-md-12 m-15px-tb">
               <div className="section-title">
                 <h3 className="white-color text-uppercase">Presentación</h3>
@@ -35,7 +35,7 @@ const Presentacion = () => {
               </div>*/}
             </div>
           </div>
-        </div>    
+        {/* </div>     */}
       </section>
     );
   };

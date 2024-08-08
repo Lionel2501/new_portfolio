@@ -34,21 +34,6 @@
     margin: 3% 2%;
 }
 
-.presentacion_datos {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.presentacion_datos_icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
 .presentacion_text {
     padding: 0;
 /*     display: flex;

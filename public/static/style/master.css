@@ -6190,6 +6190,7 @@ h6 {
   padding: 5%;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid #3c3c3c;
+  height: 60%;
 }
 .contact-form h4 {
   font-weight: 600;
@@ -6390,7 +6391,9 @@ a {
 
 section {
   height: 92%;
-  align-content: center;
+  /* align-content: center; */
+  display: flex;
+  flex-direction: column;
 }
 
 .container {

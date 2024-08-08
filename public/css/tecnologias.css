@@ -24,6 +24,10 @@
     color: #ce9178;
 }
 
+.tecnologias_empty_box {
+    height: 30%;
+}
+
 .tecnologias_box {
     padding: 15px 10px;
     /* background: rgba(0, 0, 0, 0.5); */
@@ -31,7 +35,7 @@
     border-radius: 5px; */
     position: relative;
     -webkit-transition: ease all 1s;
-    transition: ease all 1s;
+    transition: ease all 3s;
     height: 60%;
     /* margin-top: 20%; */
     display: flex;
@@ -39,6 +43,7 @@
 
 .tecnologias_main {
     background: rgba(0, 0, 0, 0.8);
+    background: #1E1E1E;
     font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
     color: #d4d4d4;
     margin: 0;

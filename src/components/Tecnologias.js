@@ -28,13 +28,14 @@ const Tecnologias = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-12 tecnologias_box">
-            <div className="col-md-6">
-              <ObjectFrontEnd />
-            </div>
-            <div className="col-md-6">
-              <ObjectBackEnd />
-            </div>
+            <div className="col-md-12 tecnologias_empty_box"></div>
+            <div className="col-md-12 tecnologias_box">
+              <div className="col-md-6">
+                <ObjectFrontEnd />
+              </div>
+              <div className="col-md-6">
+                <ObjectBackEnd />
+              </div>
             {/* <Hearthstone />  */}
           </div>
         </div>

@@ -62,22 +62,16 @@ const ExpericienceGrupoAgniDialog = ({open, onOpen}) => {
       <DialogContent dividers>
         <Typography marginY={1} style={{ textAlign: "justify" }}>
           <strong>Puesto:</strong> <br></br>
-          Parte del equipo de desarrollo de un CRM cloud para un cliente en EE.UU.
+          Miembro del equipo de desarrollo de un CRM cloud para un cliente en EE.UU.
         </Typography>
         <Divider />
         <Typography marginY={1}><strong>Objetivos:</strong> <br></br></Typography>
         <List>
           <ListItem>
-            <ListItemText margin={0} primary="Actualizar el contenido del sistema desde el proveedor de alojamiento web SiteGround." />
+            <ListItemText primary="Renderización de datos en el cliente." />
           </ListItem>
           <ListItem>
-            <ListItemText primary="Optimizar el rendimiento del sistema." />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Implementar medidas de seguridad adicionales." />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Realizar copias de seguridad periódicas." />
+            <ListItemText primary="Gestionar solicitudes en el servidor." />
           </ListItem>
         </List>
         <Divider />

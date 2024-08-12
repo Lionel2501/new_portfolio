@@ -45,7 +45,7 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
       open={_open}
     >
       <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-      Desarrollador Full Stack / Wippie
+      Desarrollador Full Stack / Wippie <br></br><small>septiembre 2023 - a la actualidad.</small>
       </DialogTitle>
       <IconButton
         aria-label="close"
@@ -60,24 +60,21 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
         <CloseIcon />
       </IconButton>
       <DialogContent dividers>
-        <Typography style={{ textAlign: "justify" }}>
+        <Typography marginY={1} style={{ textAlign: "justify" }}>
           <strong>Puesto:</strong> <br></br>
-          septiembre 2023 a la actualidad.
+          Responsable del desarrolló y mantenimiento de para la Dirección de Informática y Comunicaciones  de Mendoza.
         </Typography>
         <Divider />
         <Typography marginY={1}><strong>Objetivos:</strong> <br></br></Typography>
         <List>
-          <ListItem>
-            <ListItemText margin={0} primary="Actualizar el contenido del sistema desde el proveedor de alojamiento web SiteGround." />
+        <ListItem>
+            <ListItemText primary="Renderización de datos en el cliente." />
           </ListItem>
           <ListItem>
-            <ListItemText primary="Optimizar el rendimiento del sistema." />
+            <ListItemText primary="Gestionar solicitudes en el servidor." />
           </ListItem>
           <ListItem>
-            <ListItemText primary="Implementar medidas de seguridad adicionales." />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Realizar copias de seguridad periódicas." />
+            <ListItemText margin={0} primary="Actualizar el diseño del sitio." />
           </ListItem>
         </List>
         <Divider />

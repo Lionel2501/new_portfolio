@@ -62,23 +62,17 @@ const ExpericienceArteYParteDialog = ({open, onOpen}) => {
       <DialogContent dividers>
         <Typography marginY={1} style={{ textAlign: "justify" }}>
           <strong>Puesto:</strong> <br></br>
-          Responsable del mantenimiento y de la implementación del contenido de la sección
+          Responsable de la implementación del contenido de la sección
           de los cursos para el sitio <i>www.arteyparte.net</i>.
         </Typography>
         <Divider />
         <Typography marginY={1}><strong>Objetivos:</strong> <br></br></Typography>
         <List>
           <ListItem>
-            <ListItemText margin={0} primary="Actualizar el contenido del sistema desde el proveedor de alojamiento web SiteGround." />
+            <ListItemText margin={0} primary="Actualizar el contenido del sistema." />
           </ListItem>
           <ListItem>
-            <ListItemText primary="Optimizar el rendimiento del sistema." />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Implementar medidas de seguridad adicionales." />
-          </ListItem>
-          <ListItem>
-            <ListItemText primary="Realizar copias de seguridad periódicas." />
+            <ListItemText margin={0} primary="Actualizar el diseño del sitio." />
           </ListItem>
         </List>
         <Divider />

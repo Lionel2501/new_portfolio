@@ -74,7 +74,7 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
             <ListItemText primary="Gestionar solicitudes en el servidor." />
           </ListItem>
           <ListItem>
-            <ListItemText margin={0} primary="Actualizar el diseño del sitio." />
+            <ListItemText primary="Actualizar el diseño del sitio." />
           </ListItem>
         </List>
         <Divider />

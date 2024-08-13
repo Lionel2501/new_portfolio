@@ -44,7 +44,7 @@ const ExpericienceArteYParteDialog = ({open, onOpen}) => {
       aria-labelledby="customized-dialog-title"
       open={_open}
     >
-      <DialogTitle margin={1} sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+      <DialogTitle sx={{ m: 2, p:0 }} id="customized-dialog-title">
         Desarrollador Web / Arte y Parte <br></br><small>junio 2021 - enero 2022</small>
       </DialogTitle>
       <IconButton
@@ -60,41 +60,40 @@ const ExpericienceArteYParteDialog = ({open, onOpen}) => {
         <CloseIcon />
       </IconButton>
       <DialogContent dividers>
-        <Typography marginY={1} style={{ textAlign: "justify" }}>
-          <strong>Puesto:</strong> <br></br>
-          Responsable de la implementación del contenido de la sección
+        <Typography marginBottom={1} style={{ textAlign: "justify" }}>
+          <strong>Puesto:</strong> Responsable de la implementación del contenido de la sección
           de los cursos para el sitio <i>www.arteyparte.net</i>.
         </Typography>
         <Divider />
-        <Typography marginY={1}><strong>Objetivos:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>Objetivos:</strong> <br></br></Typography>
         <List>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText margin={0} primary="Actualizar el contenido del sistema." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText margin={0} primary="Actualizar el diseño del sitio." />
           </ListItem>
         </List>
         <Divider />
-        <Typography marginY={1}><strong>Tecnologias:</strong> <br></br></Typography>
-        <Stack direction="row" spacing={2} margin={1} sx={{ flexWrap: 'wrap', rowGap: '10px'}}>
+        <Typography marginBottom={2} marginTop={1}><strong>Tecnologias:</strong> <br></br></Typography>
+        <Stack direction="row" spacing={2} marginBottom={2} marginTop={1} sx={{ flexWrap: 'wrap', rowGap: '10px'}}>
           <Chip size='small' label="HTML" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="CSS" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="Bootstrap" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
         </Stack>
         <Divider />
-        <Typography marginY={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
         <List>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Plataforma de cursos." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Actualización del contenido de los cursos." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Implementación del estilo diseñado por el diseñador." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Participación en sesiones colaborativas Participación en sesiones colaborativas." />
           </ListItem>
         </List>

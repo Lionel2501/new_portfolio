@@ -44,7 +44,7 @@ const ExpericienceGrupoAgniDialog = ({open, onOpen}) => {
       aria-labelledby="customized-dialog-title"
       open={_open}
     >
-      <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+      <DialogTitle sx={{ m: 2, p: 0 }} id="customized-dialog-title">
         Desarrollador Full Stack / Grupo Agni <br></br><small>septiembre 2021 - agosto 2023.</small>
       </DialogTitle>
       <IconButton
@@ -60,23 +60,22 @@ const ExpericienceGrupoAgniDialog = ({open, onOpen}) => {
         <CloseIcon />
       </IconButton>
       <DialogContent dividers>
-        <Typography marginY={1} style={{ textAlign: "justify" }}>
-          <strong>Puesto:</strong> <br></br>
-          Miembro del equipo de desarrollo de un CRM cloud para un cliente en EE.UU.
+        <Typography marginBottom={1} style={{ textAlign: "justify" }}>
+          <strong>Puesto:</strong> Miembro del equipo de desarrollo de un CRM cloud para un cliente en EE.UU.
         </Typography>
         <Divider />
-        <Typography marginY={1}><strong>Objetivos:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>Objetivos:</strong> <br></br></Typography>
         <List>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Renderización de datos en el cliente." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Gestionar solicitudes en el servidor." />
           </ListItem>
         </List>
         <Divider />
-        <Typography marginY={1}><strong>Tecnologias:</strong> <br></br></Typography>
-        <Stack direction="row" spacing={2} marginY={1} sx={{ flexWrap: 'wrap', rowGap: '10px'}}>
+        <Typography marginBottom={2} marginTop={1}><strong>Tecnologias:</strong> <br></br></Typography>
+        <Stack direction="row" spacing={2} marginBottom={2} marginTop={1} sx={{ flexWrap: 'wrap', rowGap: '10px'}}>
           <Chip label="HTML" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip label="CSS" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip label="Material UI" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
@@ -91,18 +90,18 @@ const ExpericienceGrupoAgniDialog = ({open, onOpen}) => {
           <Chip label="GitHub" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
         </Stack>
         <Divider />
-        <Typography marginY={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
         <List>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Plataforma de cursos." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Actualización del contenido de los cursos." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Implementación del estilo diseñado por el diseñador." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Participación en sesiones colaborativas Participación en sesiones colaborativas." />
           </ListItem>
         </List>

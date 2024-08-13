@@ -44,7 +44,7 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
       aria-labelledby="customized-dialog-title"
       open={_open}
     >
-      <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+      <DialogTitle sx={{ m: 2, p: 0 }} id="customized-dialog-title">
       Desarrollador Full Stack / Wippie <br></br><small>septiembre 2023 - a la actualidad.</small>
       </DialogTitle>
       <IconButton
@@ -60,26 +60,26 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
         <CloseIcon />
       </IconButton>
       <DialogContent dividers>
-        <Typography marginY={1} style={{ textAlign: "justify" }}>
+        <Typography marginBottom={1} style={{ textAlign: "justify" }}>
           <strong>Puesto:</strong> <br></br>
           Responsable del desarrolló y mantenimiento de para la Dirección de Informática y Comunicaciones  de Mendoza.
         </Typography>
         <Divider />
-        <Typography marginY={1}><strong>Objetivos:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>Objetivos:</strong> <br></br></Typography>
         <List>
-        <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Renderización de datos en el cliente." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Gestionar solicitudes en el servidor." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Actualizar el diseño del sitio." />
           </ListItem>
         </List>
         <Divider />
-        <Typography marginY={1}><strong>Tecnologias:</strong> <br></br></Typography>
-        <Stack direction="row" spacing={2} marginY={1} sx={{ flexWrap: 'wrap', rowGap: '10px', flexFlow: 'start'}}>
+        <Typography marginBottom={2} marginTop={1}><strong>Tecnologias:</strong> <br></br></Typography>
+        <Stack direction="row" spacing={2} marginBottom={2} marginTop={1} sx={{ flexWrap: 'wrap', rowGap: '10px', flexFlow: 'start'}}>
           <Chip size='small' label="HTML" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="CSS" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="Bootstrap" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
@@ -91,24 +91,24 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
           <Chip size='small' label="WinSCP" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
         </Stack>
         <Divider />
-        <Typography marginY={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
         <List>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Responsable del despliegue en producción." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Mantenimiento del sistema." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Bases de datos relacionales." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Conexión de servidor SSL con X-Road." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Diseño de tablas." />
           </ListItem>
-          <ListItem>
+          <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary="Procesamiento de archivos CSV alto volumen." />
           </ListItem>
         </List>

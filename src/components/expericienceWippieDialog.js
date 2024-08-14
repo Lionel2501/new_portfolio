@@ -94,22 +94,22 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
         <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
         <List>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Responsable del despliegue en producción." />
+            <ListItemText primary="Gestioné y supervisé el despliegue de aplicaciones en entornos de producción, asegurando la correcta configuración y funcionamiento del sistema, así como la mitigación de riesgos durante la transición." />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Mantenimiento del sistema." />
+            <ListItemText primary="Realicé tareas de mantenimiento preventivo y correctivo en sistemas productivos, garantizando su estabilidad, rendimiento y disponibilidad para los usuarios finales." />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Bases de datos relacionales." />
+            <ListItemText primary="Diseñé, administré y optimicé bases de datos relacionales, asegurando la integridad, consistencia y rendimiento en la gestión de grandes volúmenes de datos transaccionales." />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Conexión de servidor SSL con X-Road." />
+            <ListItemText primary="Implementé la conexión segura de servidores mediante SSL y su integración con la plataforma X-Road, asegurando la protección de datos sensibles y la interoperabilidad entre diferentes sistemas." />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Diseño de tablas." />
+            <ListItemText primary="Diseñé y estructuré tablas de bases de datos relacionales, optimizando la organización y el acceso a los datos para mejorar la eficiencia de las consultas y la integridad referencial." />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Procesamiento de archivos CSV alto volumen." />
+            <ListItemText primary="Desarrollé e implementé procesos para la ingesta y procesamiento eficiente de archivos CSV de gran tamaño, asegurando la correcta importación y manejo de datos en sistemas de alto rendimiento." />
           </ListItem>
         </List>
       </DialogContent>

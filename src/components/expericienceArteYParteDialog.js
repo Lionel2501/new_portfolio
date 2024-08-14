@@ -84,17 +84,17 @@ const ExpericienceArteYParteDialog = ({open, onOpen}) => {
         <Divider />
         <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
         <List>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Plataforma de cursos." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary="Contribuí al diseño, desarrollo y mantenimiento de una plataforma de cursos en línea, asegurando una experiencia de usuario fluida y accesible para los estudiantes." />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Actualización del contenido de los cursos." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary="Me encargué de la actualización periódica del contenido de los cursos, integrando nuevos materiales y recursos didácticos para mantener la relevancia y calidad de la oferta educativa." />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Implementación del estilo diseñado por el diseñador." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary=" Implementé los estilos y la identidad visual diseñada por el equipo de diseño, garantizando la coherencia estética y funcional en la interfaz de la plataforma." />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Participación en sesiones colaborativas Participación en sesiones colaborativas." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary="Participé activamente en sesiones colaborativas con equipos multidisciplinarios, aportando ideas y soluciones para mejorar tanto el desarrollo técnico como la experiencia del usuario en la plataforma." />
           </ListItem>
         </List>
       </DialogContent>

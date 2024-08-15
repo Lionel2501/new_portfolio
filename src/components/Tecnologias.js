@@ -1,6 +1,8 @@
 import ObjectFrontEnd from "@/src/components/ObjectFrontEnd";
 import ObjectBackEnd from "@/src/components/ObjectBackEnd";
 import Hearthstone from "@/src/components/Hearthstone";
+import TecnologiaCard from "@/src/components/TecnologiaCard";
+
 
 const Tecnologias = () => {
     return (
@@ -29,13 +31,14 @@ const Tecnologias = () => {
             </div>
           </div>
             <div className="col-md-12 tecnologias_empty_box"></div>
-            <div className="col-md-12 tecnologias_box">
-              <div className="col-md-6">
+            <div className="col-md-12 tecnologias_box" >
+              <TecnologiaCard />
+{/*               <div className="col-md-6">
                 <ObjectFrontEnd />
               </div>
               <div className="col-md-6">
                 <ObjectBackEnd />
-              </div>
+              </div> */}
             {/* <Hearthstone />  */}
           </div>
         </div>

@@ -36,7 +36,7 @@
     height: 413px;
     margin: auto;
     border-radius: 20px;
-    border: 1px solid #3c3c3c;
+    border: 1px solid #dadada;
     box-shadow: 30px 30px 100px -49px #494848;
     transform-style: preserve-3d;
     transition: transform .05s linear;
@@ -107,6 +107,83 @@
     font-size: 23px;
     color: white;
     /* text-shadow: 0 0 2px rgba(255, 255, 255, 0.2); */
-    line-height: 1;
-    transform: translateZ(30px);
+/*     line-height: 1;
+    transform: translateZ(30px); */
+}
+
+
+/* Para pantallas pequeñas (como móviles) */
+@media (max-width: 425px) {
+    #parallax_main {
+        height: 70%; 
+    }
+
+    .parallax_card {
+        height: 300px;
+        width: 80%;
+    }
+
+    .parallax_title {
+        font-size: 12px;
+    }
+
+    .parallax_text_contain {
+        font-size: 8px;
+    }
+}
+
+/* Para pantallas grandes (como desktops) */
+@media (min-width: 767px) and (max-width:1023px){
+    #parallax_main {
+        height: 70%; /* Aplica un ancho de 70% en pantallas de 1025px o más */
+    }
+    .parallax_card {
+        height: 300px;
+        width: 80%;
+    }
+    .parallax_title {
+        font-size: 25px;
+    }
+
+    .parallax_text_contain {
+        font-size: 12px;
+    }
+    .parallax_img {
+        width: 24%;
+    }
+}
+
+/* Para pantallas medianas (como tablets) */
+@media (min-width: 1024px) and (max-width:1364px) {
+/*     #parallax_main {
+        height: 70%; 
+    }
+    .parallax_card {
+        height: 300px;
+        width: 80%;
+    }
+    .parallax_title {
+        font-size: 25px;
+    }
+
+    .parallax_text_contain {
+        font-size: 12px;
+    } */
+}
+
+@media (min-width: 1365px)  and (max-width:1500px){
+    #parallax_main {
+        height: 70%; 
+    }
+    .parallax_card {
+        height: 300px;
+        width: 70%;
+    }
+    .parallax_title {
+        font-size: 28px;
+    }
+
+    .parallax_text_contain {
+        font-size: 16px;
+    }
 }

@@ -19,11 +19,12 @@ const ExpericienceArteYParte = () => {
 {/*                 <div className="icon">
           <i className="icon-chat" />
         </div> */}
-        <div className="experience_title_job">Desarrollador Web</div>
+        {/* <div className="experience_title_job">Desarrollador Web</div> */}
         <div className='experience_img'>
-          <img className='_arte_y_parte_img' src="/img/arte_y_parte.png" alt="wippie_logo" />
+          <img className='_arte_y_parte_img' src="/img/arte_y_parte.png" alt="wippie_logo" onClick={handleClickOpen} />
         </div>
-        <div className="experience_title_job">Arte y parte</div>
+        <div className="experience_title_job">Desarrollador Web</div>
+        {/* <div className="experience_title_job">Arte y parte</div> */}
         <div>
           <Button
             className='experience_button'

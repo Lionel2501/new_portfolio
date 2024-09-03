@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaPhone, FaCity, FaEnvelope } from "react-icons/f
 const ContactDatos = () => {
   
     return (
-        <div className="contacto-info media box-shadow contact_datos_icons">
+        <div className="contacto-info media contact_datos_icons">
             <div className="icons_datos">
                 <div className="icon">
                     <FaCity />

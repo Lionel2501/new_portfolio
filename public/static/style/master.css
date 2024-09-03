@@ -771,7 +771,7 @@ h6 {
 }
 
 .section-title{
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
 }
 
 .section-title h3 {
@@ -5964,8 +5964,8 @@ h6 {
 ------------------*/
 .feature-box-1 {
   padding: 10px 10px;
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid #3c3c3c;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #dadada;
   border-radius: 5px;
   position: relative;
   top: 0;
@@ -6189,8 +6189,8 @@ h6 {
   border-radius: 5px;
   padding: 5%;
   background: rgba(0, 0, 0, 0.7);
-  border: 1px solid #3c3c3c;
-  height: 60%;
+  border: 1px solid #dadada;
+  height: 85%;
 }
 .contact-form h4 {
   font-weight: 600;

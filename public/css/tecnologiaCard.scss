@@ -80,10 +80,13 @@ body {
       width: 300px;
       flex-shrink: 0;
       height: 300px;
-      background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-      box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.3);
+      /* background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%); */
+      /* background-image: linear-gradient(147deg, #1a1918 0%, #d1c3c3 74%); */
+      background-image:  #0c0c0c;
+      box-shadow: 4px 13px 30px 1px rgba(255, 255, 255, 0.1);
+      /* box-shadow:inset 0 0 0 0px rgba(255, 255, 255); */
       border-radius: 20px;
-      transform: translateX(-80px);
+      /* transform: translateX(-80px); */
       overflow: hidden;
       
       &:after {
@@ -93,7 +96,7 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+        /* background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%); */
         border-radius: 20px;
         opacity: 0.8;
         overflow: hidden;
@@ -103,7 +106,7 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        display: none;
+        /* display: none; */
         opacity: 0;
         border-radius: 20px;
         transition: all .3s;
@@ -258,7 +261,7 @@ body {
     }
 }
 
-.tecnologia_arrow_down:hover {
+.blog-slider:hover {
   cursor: pointer;
 }
 

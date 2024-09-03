@@ -70,7 +70,9 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-lg-5 m-15px-tb contact_datos">
-            <ContactDatos /> 
+            <div className="contact-form box-shadow">
+              <ContactDatos /> 
+            </div>
           </div> 
         </div>
       </div>

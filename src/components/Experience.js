@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section id="#experience">
       <div className="container" style={{ height: "100%"}}>
-        <div className="row sm-m-25px-b m-35px-b">
+        <div className="row sm-m-25px-b">
           <div className="col-md-12">
             <div className="section-title">
               <h3 className="white-color text-uppercase">Experiencia</h3>

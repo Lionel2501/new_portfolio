@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import PresentacionDatos from "./PresentacionDatos";
+
 import PresentacionText from "./PresentacionText";
 import Parallax from "./Parallax";
 

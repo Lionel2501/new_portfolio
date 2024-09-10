@@ -32,7 +32,7 @@ const Tecnologias = () => {
           </div>
             <div className="col-md-12 tecnologias_empty_box"></div>
             <div className="col-md-12 tecnologias_box" >
-              <TecnologiaCard />
+              {/* <TecnologiaCard /> */}
 {/*               <div className="col-md-6">
                 <ObjectFrontEnd />
               </div>

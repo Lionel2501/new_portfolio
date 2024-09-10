@@ -23,6 +23,10 @@
     width: 100%;
 }
 
+.icon_download:hover {
+    cursor: pointer;
+}
+
 .contacto-info {
 /*     background: rgba(0, 0, 0, 0.7);
     border: 1px solid #3c3c3c;

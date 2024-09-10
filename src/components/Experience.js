@@ -20,7 +20,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="row justify-content-center experience_main">
-          <div className="col-lg-12 m-15px-tb experience_box">
+          <div className="col-lg-12 m-30px-t m-15px-b experience_box">
               <ExpericienceArteYParte /> 
               <ExpericienceGrupoAgni /> 
               <ExpericienceWippie /> 

@@ -23,7 +23,7 @@ const ExpericienceArteYParte = () => {
         <div className='experience_img'>
           <img className='_arte_y_parte_img' src="/img/arte_y_parte.png" alt="wippie_logo" onClick={handleClickOpen} />
         </div>
-        <div className="experience_title_job">Desarrollador Web</div>
+        <div className="experience_title_job">Desarrollador Web<br/><small>2021</small></div>
         {/* <div className="experience_title_job">Arte y parte</div> */}
         <div>
           <Button

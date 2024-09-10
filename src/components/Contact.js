@@ -63,15 +63,15 @@ const Contact = () => {
           </div>
         </div>  
         <div className="col-md-12 contact_box">
-          <div className="col-lg-7 m-15px-tb contact_mensaje">
+          <div className="col-lg-7 m-30px-t m-15px-b contact_mensaje">
             <div className="contact-form box-shadow">
               <h4 className="white-color font-alt m-20px-b">Mensaje</h4>
               <FormEmail />
             </div>
           </div>
-          <div className="col-lg-5 m-15px-tb contact_datos">
+          <div className="col-lg-5 m-30px-t m-15px-b contact_datos">
             <div className="contact-form box-shadow">
-              <ContactDatos /> 
+              <ContactDatos  /> 
             </div>
           </div> 
         </div>

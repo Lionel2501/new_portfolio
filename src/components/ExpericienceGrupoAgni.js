@@ -23,7 +23,7 @@ const ExpericienceGrupoAgni = () => {
         <div className='experience_img'>
           <img className='grupo_agni_img' src="/img/grupo_agni.png" onClick={handleClickOpen} />
         </div>
-        <div className='experience_title_job'>Desarrollador Full Stack</div>
+        <div className='experience_title_job'>Desarrollador Full Stack<br/><small>2021 - 2023</small></div>
         {/* <div className='experience_title_job'>Grupo Agni</div> */}
         <div>
           <Button 

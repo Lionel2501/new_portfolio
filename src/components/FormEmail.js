@@ -88,9 +88,7 @@ const FormEmail = () => {
                         value={name}
                         id="name"
                         placeholder="Nombre *"
-                        className={`form-control ${
-                        error ? (name.length !== 0 ? "" : "invalid") : ""
-                        }`}
+                        className={`form-control ${error ? (name.length !== 0 ? "" : "invalid") : ""}`}
                         type="text"
                     />
                     <span className="input-focus-effect theme-bg" />
@@ -104,9 +102,7 @@ const FormEmail = () => {
                         value={email}
                         id="email"
                         placeholder="Email *"
-                        className={`form-control ${
-                        error ? (email.length !== 0 ? "" : "invalid") : ""
-                        }`}
+                        className={`form-control ${error ? (email.length !== 0 ? "" : "invalid") : ""}`}
                         type="email"
                     />
                     <span className="input-focus-effect theme-bg" />
@@ -135,10 +131,8 @@ const FormEmail = () => {
                         id="message"
                         placeholder="Mensaje *"
                         rows={3}
-                        style={{ background: 'white', height: '250px'}}
-                        className={`form-control ${
-                        error ? (message.length !== 0 ? "" : "invalid") : ""
-                        }`}
+                        style={{ background: 'white'/* , height: '250px' */}}
+                        className={`form-control ${error ? (message.length !== 0 ? "" : "invalid") : ""}`}
                     />
                     <span className="input-focus-effect theme-bg" />
                 </div>

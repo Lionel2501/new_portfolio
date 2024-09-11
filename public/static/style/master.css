@@ -5998,6 +5998,7 @@ h6 {
 /*   background: #d9832e;
   border-color: #d9832e; */
   top: -10px;
+  background: rgba(0, 0, 0, 0.3);
 }
 .feature-box-1:hover .icon {
   border-color: #ffffff;

@@ -29,13 +29,13 @@ span {
 }
 
 .carousel__face:nth-child(1) { 
-	background-image: url("../img/vuejs_2.png");
+	background-image: url("../img/vuejs.png");
 	background-size: cover; 
 	background-position: center; 
 	transform: rotateY( 40deg) translateZ(500px); 
 	background-repeat: no-repeat;
 	background-clip: padding-box;
-	width: 270px;
+	width: 290px;
 	height: 150px;
 }
 
@@ -130,13 +130,13 @@ span {
 	}
 
 	.carousel__face:nth-child(1) { 
-		background-image: url("../img/vuejs_2.png");
+		background-image: url("../img/vuejs.png");
 		background-size: cover; 
 		background-position: center; 
-		transform: rotateY( 40deg) translateZ(400px); 
+		transform: rotateY( 40deg) translateZ(380px); 
 		background-repeat: no-repeat;
 		background-clip: padding-box;
-		width: 180px;
+		width: 260px;
 		height: 150px;
 	}
 	.carousel__face:nth-child(2) { 

@@ -11,13 +11,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">HTML</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Estructuración Semántica" />
                 </ListItem>
                 <ListItem>
                   <ListItemText primary="world" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Formularios Avanzados" />
                 </ListItem>
               </List>
             </div>
@@ -27,13 +27,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">CSS</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Diseño Responsivo" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Flexbox y Grid" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Animaciones y Transiciones" />
                 </ListItem>
               </List>
             </div>
@@ -43,13 +43,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">JavaScript</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Manipulación del DOM" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Manejo de Eventos" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Programación Asíncrona" />
                 </ListItem>
               </List>
             </div>
@@ -59,13 +59,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">PHP</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Manejo de Formularios" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Conexión con Bases de Datos" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Autenticación y Autorización" />
                 </ListItem>
               </List>
             </div>
@@ -75,13 +75,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">Laravel</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Rutas y Controladores" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Eloquent ORM" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Middleware y Autenticación" />
                 </ListItem>
               </List>
             </div>
@@ -91,10 +91,10 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">React</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Componentes Funcionales y de Clase" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Hooks" />
                 </ListItem>
                 <ListItem>
                   <ListItemText primary="example" />
@@ -107,13 +107,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">Mongo Db</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Modelado de Documentos" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Consultas y Agregaciones" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Escalabilidad" />
                 </ListItem>
               </List>
             </div>
@@ -123,13 +123,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">MySQL</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Diseño de Esquemas" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Consultas SQL" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Índices y Optimización" />
                 </ListItem>
               </List>
             </div>
@@ -139,13 +139,13 @@ const TecnologiasDetail = () => {
               <Typography variant="h4" component="h3">Git</Typography>
               <List>
                 <ListItem>
-                  <ListItemText primary="hello" />
+                  <ListItemText primary="Control de Versiones" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="world" />
+                  <ListItemText primary="Ramas y Fusiones" />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="example" />
+                  <ListItemText primary="Resolución de Conflictos" />
                 </ListItem>
               </List>
             </div>

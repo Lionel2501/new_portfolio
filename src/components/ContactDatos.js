@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaPhone, FaCity, FaEnvelope, FaDownload } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaPhone, FaCity, FaEnvelope, FaDownload, FaUser } from "react-icons/fa";
 
 const ContactDatos = () => {
     const handleDownload = () => {
@@ -11,6 +11,14 @@ const ContactDatos = () => {
 
     return (
         <div className="contacto-info media contact_datos_icons">
+            <div className="icons_datos">
+                <div className="icon">
+                    <FaUser />
+                </div>
+                <div className="media-body">
+                    <p className="white-color font-alt">Lionel Cassar</p>
+                </div>
+            </div>
             <div className="icons_datos">
                 <div className="icon">
                     <FaCity />

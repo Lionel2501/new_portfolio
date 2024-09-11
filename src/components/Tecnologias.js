@@ -1,48 +1,55 @@
-import ObjectFrontEnd from "@/src/components/ObjectFrontEnd";
-import ObjectBackEnd from "@/src/components/ObjectBackEnd";
-import Hearthstone from "@/src/components/Hearthstone";
-import TecnologiaCard from "@/src/components/TecnologiaCard";
+import TecnologiaDialog from "@/src/components/TecnologiaDialog";
+import { useState } from 'react';
+import TypeIt from 'typeit-react';
 
 
 const Tecnologias = () => {
+    const [open, setOpen] = useState(false);
+    const [index, setIndex] = useState(null);
+
+    const handleClickOpen = (_index) => {
+      setOpen(true);
+      setIndex(_index)
+    };
+  
+    const handleDataFromChild = (data) => {
+      setOpen(data);
+    };
+
+
     return (
       <section>
-        <div className="container" style={{ height: "100%"}}>
-        <div className="container_carousel">
-              <div className="carousel_main">
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-                <div className="carousel__face"><span></span></div>
-              </div>
+        <div className="container" style={{ height: "100%"}} >
+          <div className="container_carousel">
+            <div className="carousel_main">
+              {[...Array(9)].map((_, i) => (
+                <div key={i} className="carousel__face" onClick={() => handleClickOpen(i)}>
+                  <span></span>
+                </div>
+              ))}
             </div>
-          {/* <div className="row sm-m-25px-b m-35px-b" style={{ height: "100%"}}> */}
+          </div>
           <div className="col-md-12">
-            <div className="section-title">
+            <div className="section-title" >
               <h3 className="white-color text-uppercase">Tecnologias</h3>
               <p className="text-uppercase small">
                 Desarollador Full Stack basado en Argentina
               </p>
             </div>
-          </div>
-            <div className="col-md-12 tecnologias_empty_box"></div>
-            <div className="col-md-12 tecnologias_box" >
-              {/* <TecnologiaCard /> */}
-{/*               <div className="col-md-6">
-                <ObjectFrontEnd />
+            <div className="col-md-12 d-flex justify-content-center">
+              <div className="col-md-10 tecnologia_intro ">
+                <p className="tecnologia_intro_text">Ya sea en la facultad, por curiosidad o de manera profesional, 
+                  he tenido la oportunidad de trabajar con distintas tecnologías de desarrollo. Pueden acceder a más información sobre cada una a continuación.
+                </p>
               </div>
-              <div className="col-md-6">
-                <ObjectBackEnd />
-              </div> */}
-            {/* <Hearthstone />  */}
+            </div>
+            <div className="col-md-12 tecnologias_box" >
+              <TecnologiaDialog open={open} onOpen={handleDataFromChild} index={index}/>
+          </div>
           </div>
         </div>
       </section>
     );
   };
+
   export default Tecnologias;

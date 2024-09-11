@@ -29,7 +29,7 @@ const CarouselComponent = () => {
       >
         <SwiperSlide><Presentacion /></SwiperSlide>
         <SwiperSlide><Tecnologias /></SwiperSlide>
-        <SwiperSlide><TecnologiasDetail /></SwiperSlide>
+        {/* <SwiperSlide><TecnologiasDetail /></SwiperSlide> */}
         <SwiperSlide><Experience /></SwiperSlide>
         <SwiperSlide><Contact /></SwiperSlide>
       </Swiper>

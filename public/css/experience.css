@@ -12,6 +12,7 @@
     color: white;
     /* text-shadow: 0 0 2px rgba(255, 255, 255, 0.2); */
     line-height: 1;
+    display: none;
 }
 
 .experience_logo_job {
@@ -19,7 +20,7 @@
 }
 
 .experience_img {
-    min-height: 200px;
+    max-height: 170px;
     width: 100%;
     display: flex; 
     align-items: center;
@@ -36,15 +37,14 @@
 }
 
 .experience_box {
-    display: flex;
-    /* height: 80%; */
+    display: block;
+    height: 30%;
 }
 
 .experience_card {
     height: 90%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .experience_button {
@@ -52,6 +52,7 @@
     background-color: transparent;
     color: white;
     border: 1px solid white;
+    display: none;
 }
 
 .experience_button:hover {
@@ -82,6 +83,24 @@
     margin-top: 20px;
 }
 
-/* .feature_content_experience {
-    height: 300px;
-} */
+@media (min-width: 995px){
+    .experience_box {
+        display: flex;
+        height: 100%;
+    }
+
+    .experience_card {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .experience_button, .experience_title_job {
+        display:inline-block
+    }
+
+    .experience_img {
+        min-height: 200px;
+    }
+}

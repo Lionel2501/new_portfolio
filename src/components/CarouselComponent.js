@@ -18,6 +18,10 @@ const CarouselComponent = () => {
         slidesPerView={1}
         spaceBetween={30}
         loop={false}
+        touchRatio={0.5} 
+        touchAngle={75} 
+/*         freeMode={true}
+        lazy={true} */
 /*         pagination={{
           clickable: true,
         }} */

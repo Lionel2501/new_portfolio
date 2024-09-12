@@ -32,8 +32,8 @@
     padding: 15px;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    height: 413px;
+/*     width: 100%;
+    height: 413px; */
     margin: auto;
     border-radius: 20px;
     border: 1px solid #dadada;
@@ -47,7 +47,7 @@
         background-image: url("../img/avatar_6_png.png");
         background-size: cover;
         height: 100%;
-        width: 16%;
+       /*  width: 45%; */
         border-radius: 15px;
 
         &:after {
@@ -75,116 +75,148 @@
 }
 
 .parallax_text_main {
-    /* font-family: 'Roboto', sans-serif; */
-
-    /* position: absolute; */
-    /* bottom: 40px; */
-    /* top: 40px;
-    right: -50px; */
     font-size: 15px;
     transform: translateZ(35px);
     width: 60%;
     height: 100%;
     align-content: center;
-    /* background: rgba(0, 0, 0, 0.2); */
-/*     
-    border-radius: 300px; */
 }
 
 #parallax_main {
     width: 100%;
     height: 70%;
-    /* filter: blur(100px); */
-    /* background-image: url("../img/avatar_6_png.png"); */
 }
 
 .parallax_title {
-    font-size: 55px;
+    font-size: 25px;
     text-align: left;
 }
 
 .parallax_text_contain {
     text-align: left;
-    font-size: 23px;
+    font-size: 15px;
     color: white;
-    /* text-shadow: 0 0 2px rgba(255, 255, 255, 0.2); */
-/*     line-height: 1;
-    transform: translateZ(30px); */
 }
 
-
-/* Para pantallas pequeñas (como móviles) */
-@media (max-width: 425px) {
-    #parallax_main {
-        height: 70%; 
-    }
-
-    .parallax_card {
-        height: 300px;
-        width: 80%;
-    }
-
-    .parallax_title {
-        font-size: 12px;
-    }
-
-    .parallax_text_contain {
-        font-size: 8px;
-    }
-}
-
-/* Para pantallas grandes (como desktops) */
-@media (min-width: 767px) and (max-width:1023px){
-    #parallax_main {
-        height: 70%; /* Aplica un ancho de 70% en pantallas de 1025px o más */
-    }
-    .parallax_card {
-        height: 300px;
-        width: 80%;
-    }
-    .parallax_title {
-        font-size: 25px;
-    }
-
-    .parallax_text_contain {
-        font-size: 12px;
-    }
+@media (max-width:477px) {
     .parallax_img {
-        width: 24%;
+        width: 45%;
     }
-}
 
-/* Para pantallas medianas (como tablets) */
-@media (min-width: 1024px) and (max-width:1364px) {
-/*     #parallax_main {
-        height: 70%; 
-    }
     .parallax_card {
-        height: 300px;
+        height: 280px;
         width: 80%;
     }
+
+    .parallax_title {
+        font-size: 17px;
+    }
+
+    .parallax_text_contain {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 478px) and (max-width: 764px){
+    #parallax_main {
+        height: 80%; 
+    }
+
+    .parallax_card {
+        height: 320px;
+        width: 80%;
+    }
+
     .parallax_title {
         font-size: 25px;
     }
 
     .parallax_text_contain {
-        font-size: 12px;
-    } */
+        font-size: 13px;
+    }
+
+    .parallax_img {
+        width: 30%;
+    }
 }
 
-@media (min-width: 1365px)  and (max-width:1500px){
-    #parallax_main {
-        height: 70%; 
-    }
+@media (min-width: 765px) and (max-width: 988px) {
     .parallax_card {
-        height: 300px;
-        width: 70%;
+        height: 320px;
+        width: 80%;
     }
+
+    .parallax_img {
+        width: 25%;
+    }
+
     .parallax_title {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .parallax_text_contain {
-        font-size: 16px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 989px) and (max-width:1200px) {
+    .parallax_img {
+        width: 20%;
+    }
+
+    .parallax_title {
+        font-size: 25px;
+    }
+
+    .parallax_text_contain {
+        font-size: 18px;
+    }
+    
+    .parallax_card {
+        margin-top: 30px;
+        height: 350px;
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width:1440px){
+    .parallax_card {
+        margin-top: 30px;
+        height: 350px;
+        width: 80%;
+    }
+
+    .parallax_img {
+        width: 16%;
+    }
+
+    .parallax_title {
+        font-size: 35px;
+    }
+
+    .parallax_text_contain {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .parallax_card {
+        margin-top: 50px;
+        height: 450px;
+        width: 85%;
+    }
+
+    .parallax_img {
+        width: 22%;
+    }
+
+    .parallax_title {
+        font-size: 45px;
+    }
+
+    .parallax_text_contain {
+        font-size: 25px;
     }
 }

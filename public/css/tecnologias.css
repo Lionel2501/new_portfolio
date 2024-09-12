@@ -25,9 +25,8 @@
 }
 
 .tecnologia_intro {
-    margin: 0, 30px;
     height: 15%;
-    margin-top: 70px;
+    margin-top: 20px;
     padding: 10px 10px;
     background: rgba(0, 0, 0, 0.7);
     border: 1px solid #5f5e5e;
@@ -37,7 +36,7 @@
 }
 
 .tecnologia_intro_text {
-    font-size: 17px;
+    font-size: 13px;
     display: contents;
 }
 
@@ -121,13 +120,12 @@
     font-size: 16px;
 }
 
-
-@media (min-width: 1365px) and (max-width:1500px){
+@media (min-width: 765px) {
     .tecnologia_intro {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .tecnologia_intro_text {
-        font-size: 15px;
+        font-size: 17px;
     }
 }

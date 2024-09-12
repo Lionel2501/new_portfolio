@@ -39,7 +39,7 @@ const Tecnologias = () => {
             <div className="col-md-12 d-flex justify-content-center">
               <div className="col-md-10 tecnologia_intro ">
                 <p className="tecnologia_intro_text">Ya sea en la facultad, por curiosidad o de manera profesional, 
-                  he tenido la oportunidad de trabajar con distintas tecnologías de desarrollo. Pueden acceder a más información sobre cada una a continuación.
+                  he tenido la oportunidad de trabajar con distintas tecnologías de desarrollo. A continuación, pueden acceder a más información haciendo click sobre cada una.
                 </p>
               </div>
             </div>

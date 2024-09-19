@@ -14,7 +14,7 @@ export default function Document() {
       <meta name="description" content="Lionel Cassar dev" />
       <Head>
         {/* Favicon */}
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="img/icono_logo.webp" />
         {/* plugin CSS */}
         <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="static/plugin/font-awesome/css/all.min.css" rel="stylesheet"/>

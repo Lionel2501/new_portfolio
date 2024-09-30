@@ -2,7 +2,7 @@ import ExpericienceArteYParteDialog from './expericienceArteYParteDialog';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
 
-const ExpericienceArteYParte = () => {
+const ExpericienceArteYParte = ({ t }) => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -23,16 +23,16 @@ const ExpericienceArteYParte = () => {
         <div className='experience_img'>
           <img className='_arte_y_parte_img' src="/img/arte_y_parte.png" alt="wippie_logo" onClick={handleClickOpen} />
         </div>
-        <div className="experience_title_job">Desarrollador Web<br/><small>2021</small></div>
+        <div className="experience_title_job">{t("experience_arteyparte.title")}<br/><small>{t("experience_arteyparte.fecha")}</small></div>
         {/* <div className="experience_title_job">Arte y parte</div> */}
         <div>
           <Button
             className='experience_button'
             variant="outlined" 
             onClick={handleClickOpen}>
-              leer más
+              {t("global.button")}
           </Button>
-          <ExpericienceArteYParteDialog open={open} onOpen={handleDataFromChild}/>
+          <ExpericienceArteYParteDialog open={open} onOpen={handleDataFromChild} t={t} />
         </div>
       </div>
     </div>

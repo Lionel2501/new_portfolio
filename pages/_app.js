@@ -17,6 +17,7 @@ import "../public/static/style/master.css";
 import "../src/backgroundDinamic";
 import "../src/parallax";
 import TypingAnimation from "@/src/components/TypingAnimation";
+import '../src/config/i18n';
 
 export default function App({ Component, pageProps }) {
 

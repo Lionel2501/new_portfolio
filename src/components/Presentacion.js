@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import PresentacionText from "./PresentacionText";
 import Parallax from "./Parallax";
 
-const Presentacion = () => {
+const Presentacion = ({ t }) => {
 
     return (
       <section >
@@ -11,15 +11,13 @@ const Presentacion = () => {
           {/* <div className="row full- p-10px-tb" style={{ height: "80%"}}> */}
             <div className="col-md-12 m-15px-tb">
               <div className="section-title">
-                <h3 className="white-color text-uppercase">Presentación</h3>
-                <p className="text-uppercase small">
-                  Desarollador Full Stack basado en Argentina
-                </p>
+                <h3 className="white-color text-uppercase">{t('global.presentation')}</h3>
+                <p className="text-uppercase small">{t('global.subtitle')}</p>
               </div>
             </div>        
             
             <div className="col-md-12 parallax_body" id="parallax_main">
-              <Parallax />
+              <Parallax t={t} />
               {/* <div className="col-md-12 m-15px-tb">
                 <div className="presentacion_title">
                   Soy un programador full stack apasionado por construir soluciones completas y eficientes.

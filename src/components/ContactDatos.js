@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaPhone, FaCity, FaEnvelope, FaDownload, FaUser } from "react-icons/fa";
 
-const ContactDatos = () => {
+const ContactDatos = ({ t }) => {
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = '/files/cv_lionel_cassar_programador.pdf'; // Ruta pública al archivo
@@ -68,7 +68,7 @@ const ContactDatos = () => {
                     <FaDownload />
                 </div>
                 <div className="media-body">
-                    <p className="white-color font-alt">Descargar CV</p>
+                    <p className="white-color font-alt">{t("contact.download")}</p>
                 </div>
             </div>
         </div>

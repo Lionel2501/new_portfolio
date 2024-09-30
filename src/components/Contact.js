@@ -4,7 +4,7 @@ import FormEmail from "./FormEmail";
 import ContactDatos from "./ContactDatos";
 import { Height } from "@mui/icons-material";
 
-const Contact = () => {
+const Contact = ({ t }) => {
   const [mailData, setMailData] = useState({
     name: "",
     email: "",
@@ -56,22 +56,20 @@ const Contact = () => {
         {/* <div className="row full- p-10px-tb" style={{ height: "80%"}}> */}
         <div className="col-md-12 m-15px-tb contact_title">
           <div className="section-title">
-            <h3 className="white-color text-uppercase">CONTACTAR</h3>
-            <p className="text-uppercase small">
-              Desarollador Full Stack basado en Argentina
-            </p>
+            <h3 className="white-color text-uppercase">{t('global.contact')}</h3>
+            <p className="text-uppercase small">{t('global.subtitle')}</p>
           </div>
         </div>  
         <div className="col-md-12 contact_box">
           <div className="col-lg-7 m-30px-t m-15px-b contact_mensaje">
             <div className="contact-form box-shadow">
-              <h4 className="white-color font-alt m-20px-b">Mensaje</h4>
-              <FormEmail />
+              <h4 className="white-color font-alt m-20px-b">{t('contact.title')}</h4>
+              <FormEmail t={t} />
             </div>
           </div>
           <div className="col-lg-5 m-30px-t m-15px-b contact_datos">
             <div className="contact-form box-shadow">
-              <ContactDatos  /> 
+              <ContactDatos t={t} /> 
             </div>
           </div> 
         </div>

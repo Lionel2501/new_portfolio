@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 
-const FormEmail = () => {
+const FormEmail = ({ t }) => {
     const [mailData, setMailData] = useState({
         name: "",
         email: "",
@@ -87,7 +87,7 @@ const FormEmail = () => {
                         onChange={(e) => onChange(e)}
                         value={name}
                         id="name"
-                        placeholder="Nombre *"
+                        placeholder={t("contact.name")}
                         className={`form-control ${error ? (name.length !== 0 ? "" : "invalid") : ""}`}
                         type="text"
                     />
@@ -101,7 +101,7 @@ const FormEmail = () => {
                         onChange={(e) => onChange(e)}
                         value={email}
                         id="email"
-                        placeholder="Email *"
+                        placeholder={t("contact.email")}
                         className={`form-control ${error ? (email.length !== 0 ? "" : "invalid") : ""}`}
                         type="email"
                     />
@@ -115,7 +115,7 @@ const FormEmail = () => {
                         onChange={(e) => onChange(e)}
                         value={subject}
                         id="subject"
-                        placeholder="Asunto"
+                        placeholder={t("contact.subjet")}
                         className="form-control"
                         type="text"
                     />
@@ -129,7 +129,7 @@ const FormEmail = () => {
                         onChange={(e) => onChange(e)}
                         value={message}
                         id="message"
-                        placeholder="Mensaje *"
+                        placeholder={t("contact.message")}
                         rows={3}
                         style={{ background: 'white'/* , height: '250px' */}}
                         className={`form-control ${error ? (message.length !== 0 ? "" : "invalid") : ""}`}
@@ -139,7 +139,7 @@ const FormEmail = () => {
             </div>
             <div className="col-md-12">
                 <div className="send">
-                    <button className="m-btn enviarButton" type="submit" value="Send">Enviar</button>
+                    <button className="m-btn enviarButton" type="submit" value="Send">{t("contact.button_send")}</button>
                 </div>
             </div>
         </form>

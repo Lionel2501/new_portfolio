@@ -22,7 +22,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-const ExpericienceArteYParteDialog = ({open, onOpen}) => {
+const ExpericienceArteYParteDialog = ({open, onOpen, t}) => {
 
   const [_open, setOpen] = useState(false);
 

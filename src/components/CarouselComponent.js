@@ -7,10 +7,12 @@ import Tecnologias from "@/src/components/Tecnologias";
 import TecnologiasDetail from "@/src/components/TecnologiasDetail";
 import Experience from "@/src/components/Experience";
 import Contact from "@/src/components/Contact";
+import { useTranslation } from 'react-i18next';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Mousewheel]);
 
 const CarouselComponent = () => {
+  const { t, i18n } = useTranslation();
 
   return (
     <>
@@ -31,11 +33,11 @@ const CarouselComponent = () => {
         /* modules={[Pagination, Navigation, Mousewheel]} */
         className="mySwiper"
       >
-        <SwiperSlide><Presentacion /></SwiperSlide>
-        <SwiperSlide><Tecnologias /></SwiperSlide>
+        <SwiperSlide><Presentacion t={t}/></SwiperSlide>
+        <SwiperSlide><Tecnologias t={t}/></SwiperSlide>
         {/* <SwiperSlide><TecnologiasDetail /></SwiperSlide> */}
-        <SwiperSlide><Experience /></SwiperSlide>
-        <SwiperSlide><Contact /></SwiperSlide>
+        <SwiperSlide><Experience t={t}/></SwiperSlide>
+        <SwiperSlide><Contact t={t}/></SwiperSlide>
       </Swiper>
     </>
   );

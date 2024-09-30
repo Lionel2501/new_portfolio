@@ -1,22 +1,14 @@
 import CarouselComponent from "@/src/components/CarouselComponent";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
+import ButtonLenguage from '../src/components/ButtonLenguage';
 
 
 const Index = () => {
 
   return (
     <Fragment>
+        <ButtonLenguage /> 
         <CarouselComponent />
-{/*         <Presentacion />*/}
-        {/* <Tecnologias />  */}
-        {/* <Experience /> */}
-        {/* <Skills /> */}
-        {/* <About /> */}
-        {/* <Work /> */}
-        {/* <Testiminails /> */}
-        {/* <Blog /> */}
-        {/* <Contact /> */}
-        {/* <Footer /> */}
     </Fragment>
   );
 };

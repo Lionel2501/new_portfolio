@@ -22,7 +22,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-const TecnologiaDialog = ({open, onOpen, index}) => {
+const TecnologiaDialog = ({open, onOpen, index, t}) => {
 
   const [_open, setOpen] = useState(false);
 
@@ -45,9 +45,9 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/vuejs_2.png",
       experiencia: "4",
       habilidades: [
-        "Enrutamiento con Vue Router",
-        "Integración con Tailwind CSS",
-        "Comunicación con API usando Axios"
+        t("vuejs.habilidad_1"),
+        t("vuejs.habilidad_2"),
+        t("vuejs.habilidad_3"),
       ],
       opinion: "En 2021, utilicé Vue.js para desarrollar mi primer portafolio mientras buscaba mi primera experiencia laboral. Implementé Tailwind CSS para los estilos, lo que me permitió explorar y fortalecer mis habilidades en el desarrollo front-end a través de este proyecto."
     },
@@ -58,11 +58,11 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/python_logo.png",
       experiencia: "4",
       habilidades: [
-        "Uso de BeautifulSoup para web scraping",
-        "Automatización de tareas",
-        "Gestión de datos y almacenamiento"
+        t("python.habilidad_1"),
+        t("python.habilidad_2"),
+        t("python.habilidad_3"),
       ],
-      opinion: "Exploré Python por curiosidad, ya que es un lenguaje que me interesa aprender más a fondo. Desarrollé un script utilizando la librería BeautifulSoup para extraer datos de páginas web y almacenarlos en mi base de datos, lo que me permitió automatizar tareas de scraping y gestión de información.",
+      opinion: t("python.opinion"),
       github: ""
     },
     {
@@ -72,13 +72,13 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/js_logo.png",
       experiencia: "4",
       habilidades: [
-        "Manipulación del DOM",
-        "Manejo de Eventos",
-        "Programación Asíncrona",
-        "Uso de Frameworks y Librerías",
-        "Exploración de Node.js"
+        t("javascript.habilidad_1"),
+        t("javascript.habilidad_2"),
+        t("javascript.habilidad_3"),
+        t("javascript.habilidad_4"),
+        t("javascript.habilidad_5"),
       ],
-      opinion: "Adquirí una sólida comprensión de JavaScript durante mis estudios universitarios y lo apliqué en mi experiencia profesional para el desarrollo de front-end. Además, realicé experimentos con Node.js para explorar el desarrollo en el back-end, ampliando así mi conocimiento en la construcción de aplicaciones completas."
+      opinion: t("javascript.opinion"),
     },
     {
       width: "150px",
@@ -87,14 +87,14 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/php_logo.png",
       experiencia: "4",
       habilidades: [
-        "Programación Orientada a Objetos (OOP)",
-        "Sintaxis y Estructura de PHP",
-        "Manejo de Formularios",
-        "Conexión con Bases de Datos",
-        "Autenticación y Autorización",
-        "Manejo de Peticiones HTTP"
+        t("php.habilidad_1"),
+        t("php.habilidad_2"),
+        t("php.habilidad_3"),
+        t("php.habilidad_4"),
+        t("php.habilidad_5"),
+        t("php.habilidad_6"),
       ],
-      opinion: "Adquirí una sólida comprensión de PHP durante mis estudios universitarios, donde aprendí la sintaxis del lenguaje y desarrollé diversas funcionalidades, incluyendo sistemas de autenticación, manejo de peticiones, controladores, así como la implementación de clases y objetos."
+      opinion: t("php.opinion"),
     },
     {
       width: "350px",
@@ -103,14 +103,14 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/laravel_logo.png",
       experiencia: "4",
       habilidades: [
-        "Rutas y Controladores",
-        "Eloquent ORM",
-        "Middleware y Autenticación",
-        "Integración con MongoDB",
-        "Micro servicios",
-        "Optimización y Escalabilidad"
+        t("laravel.habilidad_1"),
+        t("laravel.habilidad_2"),
+        t("laravel.habilidad_3"),
+        t("laravel.habilidad_4"),
+        t("laravel.habilidad_5"),
+        t("laravel.habilidad_6"),
       ],
-      opinion: "Después de mi primer año de estudios universitarios, profundicé en Laravel para seguir perfeccionando mis habilidades en PHP. A lo largo de dos años de experiencia trabajando con Laravel, he implementado microservicios y realizado peticiones a MongoDB utilizando el paquete Jenssegers. Esta experiencia me ha proporcionado una sólida comprensión del framework y sus capacidades."
+      opinion: t("laravel.opinion"),
     },
     {
       width: "400px",
@@ -119,14 +119,14 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/react_logo.png",
       experiencia: "4",
       habilidades: [
-        "Componentes Funcionales y de Clase",
-        "Hooks",
-        "Gestión de Estados Globales",
-        "Creación de Componentes Reutilizables",
-        "Integración de Librerías y APIs",
-        "Diseño de Interfaces con Material UI"
+        t("react.habilidad_1"),
+        t("react.habilidad_2"),
+        t("react.habilidad_3"),
+        t("react.habilidad_4"),
+        t("react.habilidad_5"),
+        t("react.habilidad_6"),
       ],
-      opinion: "Durante mi experiencia profesional, aprendí React para desarrollar la parte front-end de mis proyectos. Trabajé en la implementación de estados globales utilizando herramientas como Redux, creé componentes reutilizables para mejorar la eficiencia del desarrollo y utilicé diversas librerías para optimizar la funcionalidad de las aplicaciones. Además, manejé el diseño de interfaces utilizando Material UI, lo que me permitió crear interfaces atractivas y funcionales. Esta experiencia me ha proporcionado un sólido conocimiento en el desarrollo front-end con React."
+      opinion: t("react.opinion"),
     },
     {
       width: "220px",
@@ -135,11 +135,11 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/mysql_logo.png",
       experiencia: "4",
       habilidades: [
-        "Diseño de Esquemas",
-        "Consultas SQL",
-        "Índices y Optimización"
+        t("mysql.habilidad_1"),
+        t("mysql.habilidad_2"),
+        t("mysql.habilidad_3"),
       ],
-      opinion: "Durante mis estudios universitarios, aprendí a realizar consultas en MySQL, comprendiendo la estructura y el lenguaje de consultas SQL. Además, en mi experiencia laboral, diseñé y creé tablas para un sistema que tenía a mi cargo, asegurando la correcta organización y gestión de los datos. Esto me permitió desarrollar habilidades en la optimización de consultas y en la administración de bases de datos relacionales."
+      opinion: t("mysql.opinion"),
     },
 
     {
@@ -149,11 +149,11 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/mongo_db_logo.png",
       experiencia: "4",
       habilidades: [
-        "Manipulación de datos básicos",
-        "Sintaxis",
-        "Escalabilidad"
+        t("mongodb.habilidad_1"),
+        t("mongodb.habilidad_2"),
+        t("mongodb.habilidad_3"),
       ],
-      opinion: "Durante mi formación profesional, exploré MongoDB, adquiriendo experiencia en la creación y manipulación de documentos en bases de datos NoSQL. A lo largo de mi carrera, he trabajado con MongoDB para manejar grandes volúmenes de datos y realizar consultas eficientes. En proyectos anteriores, utilicé la flexibilidad de MongoDB para desarrollar estructuras de datos dinámicas y optimizar el rendimiento en sistemas de gran escala."
+      opinion: t("mongodb.opinion"),
     },
     {
       width: "225px",
@@ -162,13 +162,12 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
       img: "../img/rsz_github_logo.png",
       experiencia: "4",
       habilidades: [
-        "Control de Versiones",
-        "Ramas y Fusiones",
-        "Resolución de Conflictos"
+        t("git.habilidad_1"),
+        t("git.habilidad_2"),
+        t("git.habilidad_3"),
       ],
-      opinion: "A lo largo de mi carrera, he utilizado Git como herramienta esencial para el control de versiones. Desde mis primeros proyectos hasta trabajos profesionales, he gestionado repositorios, colaborado en equipo, y realizado ramas y fusiones para asegurar un desarrollo organizado. Además, he aplicado Git para mantener un historial de cambios claro y revertir a versiones anteriores cuando ha sido necesario, lo que me ha permitido mantener un flujo de trabajo eficiente y estructurado."
+      opinion: t("git.opinion"),
     },
-
   ]
 
   return (
@@ -196,7 +195,7 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
         <CloseIcon />
       </IconButton>
       <DialogContent dividers>
-        <Typography marginTop={1}><strong>Habilidades:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>{t("global.hability")}</strong> <br></br></Typography>
         <List>
           {
             data[index]?.habilidades?.map(x => {
@@ -208,7 +207,7 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
           }
         </List>
         <Divider />
-        <Typography marginTop={1}><strong>Nota:</strong></Typography>
+        <Typography marginTop={1}><strong>{t("global.note")}</strong></Typography>
         <List>
           <ListItem sx={{ paddingY: 0 }}>
             <ListItemText primary={data[index]?.opinion} />
@@ -216,9 +215,7 @@ const TecnologiaDialog = ({open, onOpen, index}) => {
         </List>
       </DialogContent>
       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cerrar
-        </Button>
+        <Button autoFocus onClick={handleClose}>{t("global.button_close")}</Button>
       </DialogActions>
     </BootstrapDialog>
   );

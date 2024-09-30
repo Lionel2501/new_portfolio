@@ -22,7 +22,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-const ExpericienceWippieDialog = ({open, onOpen}) => {
+const ExpericienceWippieDialog = ({open, onOpen, t}) => {
 
   const [_open, setOpen] = useState(false);
 
@@ -61,24 +61,24 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
       </IconButton>
       <DialogContent dividers>
         <Typography marginBottom={1} style={{ textAlign: "justify" }}>
-          <strong>Puesto:</strong> <br></br>
-          Responsable del desarrolló y mantenimiento de para la Dirección de Informática y Comunicaciones  de Mendoza.
+        <strong>{t('global.job_posicion_title')}</strong> <br></br>
+        {t('experience_wippie.job_posicion')}
         </Typography>
         <Divider />
-        <Typography marginTop={1}><strong>Objetivos:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>{t('global.goals')}</strong> <br></br></Typography>
         <List>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Renderización de datos en el cliente." />
+            <ListItemText margin={0} primary={t('experience_wippie.goals_1')} />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Gestionar solicitudes en el servidor." />
+            <ListItemText margin={0} primary={t('experience_wippie.goals_2')} />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Actualizar el diseño del sitio." />
+            <ListItemText margin={0} primary={t('experience_wippie.goals_2')} />
           </ListItem>
         </List>
         <Divider />
-        <Typography marginBottom={2} marginTop={1}><strong>Tecnologias:</strong> <br></br></Typography>
+        <Typography marginBottom={2} marginTop={1}><strong>{t('global.tecnologies')}</strong> <br></br></Typography>
         <Stack direction="row" spacing={2} marginBottom={2} marginTop={1} sx={{ flexWrap: 'wrap', rowGap: '10px', flexFlow: 'start'}}>
           <Chip size='small' label="HTML" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="CSS" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
@@ -91,25 +91,25 @@ const ExpericienceWippieDialog = ({open, onOpen}) => {
           <Chip size='small' label="WinSCP" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
         </Stack>
         <Divider />
-        <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>{t('global.task_done')}</strong> <br></br></Typography>
         <List>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Gestioné y supervisé el despliegue de aplicaciones en entornos de producción, asegurando la correcta configuración y funcionamiento del sistema, así como la mitigación de riesgos durante la transición." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary={t('experience_wippie.task_done_1')} />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Realicé tareas de mantenimiento preventivo y correctivo en sistemas productivos, garantizando su estabilidad, rendimiento y disponibilidad para los usuarios finales." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary={t('experience_wippie.task_done_2')}/>
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Diseñé, administré y optimicé bases de datos relacionales, asegurando la integridad, consistencia y rendimiento en la gestión de grandes volúmenes de datos transaccionales." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary={t('experience_wippie.task_done_3')} />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Implementé la conexión segura de servidores mediante SSL y su integración con la plataforma X-Road, asegurando la protección de datos sensibles y la interoperabilidad entre diferentes sistemas." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary={t('experience_wippie.task_done_4')} />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Diseñé y estructuré tablas de bases de datos relacionales, optimizando la organización y el acceso a los datos para mejorar la eficiencia de las consultas y la integridad referencial." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary={t('experience_wippie.task_done_5')} />
           </ListItem>
-          <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText primary="Desarrollé e implementé procesos para la ingesta y procesamiento eficiente de archivos CSV de gran tamaño, asegurando la correcta importación y manejo de datos en sistemas de alto rendimiento." />
+          <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
+            <ListItemText primary={t('experience_wippie.task_done_6')}/>
           </ListItem>
         </List>
       </DialogContent>

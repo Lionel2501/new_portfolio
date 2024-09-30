@@ -6401,3 +6401,10 @@ section {
   height: 100%;
   padding: 0;
 }
+
+.button_lenguage {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 1000;
+}

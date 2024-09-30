@@ -45,7 +45,7 @@ const ExpericienceArteYParteDialog = ({open, onOpen, t}) => {
       open={_open}
     >
       <DialogTitle sx={{ m: 2, p:0 }} id="customized-dialog-title">
-        Desarrollador Web / Arte y Parte <br></br><small>junio 2021 - enero 2022</small>
+        {t('experience_arteyparte.title_job')} <br></br><small>{t('experience_arteyparte.title_job_date')}</small>
       </DialogTitle>
       <IconButton
         aria-label="close"
@@ -61,47 +61,44 @@ const ExpericienceArteYParteDialog = ({open, onOpen, t}) => {
       </IconButton>
       <DialogContent dividers>
         <Typography marginBottom={1} style={{ textAlign: "justify" }}>
-          <strong>Puesto:</strong> Responsable de la implementación del contenido de la sección
-          de los cursos para el sitio <i>www.arteyparte.net</i>.
+          <strong>{t('global.job_posicion_title')}</strong>{t('experience_arteyparte.job_posicion')}<i>{t('experience_arteyparte._job_posicion')}</i>.
         </Typography>
         <Divider />
-        <Typography marginTop={1}><strong>Objetivos:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>{t('global.goals')}</strong> <br></br></Typography>
         <List>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText margin={0} primary="Actualizar el contenido del sistema." />
+            <ListItemText margin={0} primary={t('experience_arteyparte.goals_1')} />
           </ListItem>
           <ListItem sx={{ paddingY: 0 }}>
-            <ListItemText margin={0} primary="Actualizar el diseño del sitio." />
+            <ListItemText margin={0} primary={t('experience_arteyparte.goals_2')} />
           </ListItem>
         </List>
         <Divider />
-        <Typography marginBottom={2} marginTop={1}><strong>Tecnologias:</strong> <br></br></Typography>
+        <Typography marginBottom={2} marginTop={1}><strong>{t('global.tecnologies')}</strong> <br></br></Typography>
         <Stack direction="row" spacing={2} marginBottom={2} marginTop={1} sx={{ flexWrap: 'wrap', rowGap: '10px'}}>
           <Chip size='small' label="HTML" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="CSS" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
           <Chip size='small' label="Bootstrap" sx={{ '& .MuiChip-label': {fontSize: '15px', fontWeight: '600'}}}/>
         </Stack>
         <Divider />
-        <Typography marginTop={1}><strong>Tareas realizadas:</strong> <br></br></Typography>
+        <Typography marginTop={1}><strong>{t('global.task_done')}</strong> <br></br></Typography>
         <List>
           <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
-            <ListItemText primary="Contribuí al diseño, desarrollo y mantenimiento de una plataforma de cursos en línea, asegurando una experiencia de usuario fluida y accesible para los estudiantes." />
+            <ListItemText primary={t('experience_arteyparte.task_done_1')} />
           </ListItem>
           <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
-            <ListItemText primary="Me encargué de la actualización periódica del contenido de los cursos, integrando nuevos materiales y recursos didácticos para mantener la relevancia y calidad de la oferta educativa." />
+            <ListItemText primary={t('experience_arteyparte.task_done_2')}/>
           </ListItem>
           <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
-            <ListItemText primary=" Implementé los estilos y la identidad visual diseñada por el equipo de diseño, garantizando la coherencia estética y funcional en la interfaz de la plataforma." />
+            <ListItemText primary={t('experience_arteyparte.task_done_3')} />
           </ListItem>
           <ListItem sx={{ paddingY: 0, textAlign: "justify" }}>
-            <ListItemText primary="Participé activamente en sesiones colaborativas con equipos multidisciplinarios, aportando ideas y soluciones para mejorar tanto el desarrollo técnico como la experiencia del usuario en la plataforma." />
+            <ListItemText primary={t('experience_arteyparte.task_done_4')} />
           </ListItem>
         </List>
       </DialogContent>
       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cerrar
-        </Button>
+        <Button autoFocus onClick={handleClose}>{t('global.button_close')}</Button>
       </DialogActions>
     </BootstrapDialog>
   );

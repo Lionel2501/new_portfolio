@@ -2,7 +2,7 @@ import ExpericienceGrupoAgniDialog from './expericienceGrupoAgniDialog';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
 
-const ExpericienceGrupoAgni = () => {
+const ExpericienceGrupoAgni = ({ t }) => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -16,23 +16,18 @@ const ExpericienceGrupoAgni = () => {
   return (
     <div className="col-sm-6 col-lg-4 m-15px-tb" style={{ height: "100%"}}>
       <div className="feature-box-1 box-shadow-lg experience_card">
-  {/*               <div className="icon">
-          <i className="icon-pricetags" />
-        </div> */}
-        {/* <div className="experience_title_job">Desarrollador Full Stack</div> */}
         <div className='experience_img'>
           <img className='grupo_agni_img' src="/img/grupo_agni.png" onClick={handleClickOpen} />
         </div>
-        <div className='experience_title_job'>Desarrollador Full Stack<br/><small>2021 - 2023</small></div>
-        {/* <div className='experience_title_job'>Grupo Agni</div> */}
+        <div className="experience_title_job">{t("experience_grupoagni.title")}<br/><small>{t("experience_grupoagni.date")}</small></div>
         <div>
           <Button 
             className='experience_button'
             variant="outlined" 
             onClick={handleClickOpen}>
-              leer más
+              {t("global.button_read_more")}
           </Button>
-          <ExpericienceGrupoAgniDialog open={open} onOpen={handleDataFromChild}/>
+          <ExpericienceGrupoAgniDialog open={open} onOpen={handleDataFromChild} t={t}/>
         </div>
       </div>
     </div>

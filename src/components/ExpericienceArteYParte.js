@@ -16,21 +16,16 @@ const ExpericienceArteYParte = ({ t }) => {
   return (
     <div className="col-sm-6 col-lg-4 m-15px-tb" style={{ height: "100%"}}>
       <div className="feature-box-1 box-shadow-lg experience_card">
-{/*                 <div className="icon">
-          <i className="icon-chat" />
-        </div> */}
-        {/* <div className="experience_title_job">Desarrollador Web</div> */}
         <div className='experience_img'>
           <img className='_arte_y_parte_img' src="/img/arte_y_parte.png" alt="wippie_logo" onClick={handleClickOpen} />
         </div>
-        <div className="experience_title_job">{t("experience_arteyparte.title")}<br/><small>{t("experience_arteyparte.fecha")}</small></div>
-        {/* <div className="experience_title_job">Arte y parte</div> */}
+        <div className="experience_title_job">{t("experience_arteyparte.title")}<br/><small>{t("experience_arteyparte.date")}</small></div>
         <div>
           <Button
             className='experience_button'
             variant="outlined" 
             onClick={handleClickOpen}>
-              {t("global.button")}
+              {t("global.button_read_more")}
           </Button>
           <ExpericienceArteYParteDialog open={open} onOpen={handleDataFromChild} t={t} />
         </div>

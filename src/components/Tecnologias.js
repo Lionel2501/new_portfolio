@@ -1,6 +1,5 @@
 import TecnologiaDialog from "@/src/components/TecnologiaDialog";
 import { useState } from 'react';
-import TypeIt from 'typeit-react';
 
 const Tecnologias = ({ t }) => {
     const [open, setOpen] = useState(false);
@@ -39,7 +38,7 @@ const Tecnologias = ({ t }) => {
               </div>
             </div>
             <div className="col-md-12 tecnologias_box" >
-              <TecnologiaDialog open={open} onOpen={handleDataFromChild} index={index}/>
+              <TecnologiaDialog open={open} onOpen={handleDataFromChild} index={index} t={t}/>
           </div>
           </div>
         </div>

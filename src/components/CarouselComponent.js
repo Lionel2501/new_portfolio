@@ -1,4 +1,3 @@
-// CarouselComponent.jsx
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
@@ -22,20 +21,12 @@ const CarouselComponent = () => {
         loop={false}
         touchRatio={0.5} 
         touchAngle={75} 
-/*         freeMode={true}
-        lazy={true} */
-/*         pagination={{
-          clickable: true,
-        }} */
         direction='vertical'
-        /* navigation={true} */
         mousewheel={{ invert: false }}
-        /* modules={[Pagination, Navigation, Mousewheel]} */
         className="mySwiper"
       >
         <SwiperSlide><Presentacion t={t}/></SwiperSlide>
         <SwiperSlide><Tecnologias t={t}/></SwiperSlide>
-        {/* <SwiperSlide><TecnologiasDetail /></SwiperSlide> */}
         <SwiperSlide><Experience t={t}/></SwiperSlide>
         <SwiperSlide><Contact t={t}/></SwiperSlide>
       </Swiper>

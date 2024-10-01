@@ -39,7 +39,7 @@ const TecnologiaDialog = ({open, onOpen, index, t}) => {
 
   const data = [
     {
-      width: "300px",
+      width: "330px",
       name: "Vue Js",
       type: "Front-End",
       img: "../img/vuejs_2.png",
@@ -97,7 +97,7 @@ const TecnologiaDialog = ({open, onOpen, index, t}) => {
       opinion: t("php.opinion"),
     },
     {
-      width: "350px",
+      width: "380px",
       name: "Laravel",
       type: "Back-End",
       img: "../img/laravel_logo.png",
@@ -113,7 +113,7 @@ const TecnologiaDialog = ({open, onOpen, index, t}) => {
       opinion: t("laravel.opinion"),
     },
     {
-      width: "400px",
+      width: "430px",
       name: "React",
       type: "Front-End",
       img: "../img/react_logo.png",
@@ -158,7 +158,7 @@ const TecnologiaDialog = ({open, onOpen, index, t}) => {
     {
       width: "225px",
       name: "Git",
-      type: "Tecnologia de entorno",
+      type: "Back-End",
       img: "../img/rsz_github_logo.png",
       experiencia: "4",
       habilidades: [

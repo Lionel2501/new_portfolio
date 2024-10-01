@@ -1,0 +1,152 @@
+{
+    "presentation": {
+        "card_title": "Hello! I'm Lionel,",
+        "card_text_1": "I started programming in 2019 on my own, before studying at UNICEN in Tandil.",
+        "card_text_2": "I have experience in system development, both front-end and back-end.",
+        "card_text_3": "Swipe the content to discover more about my skills and experience."
+    },
+    "tecnologies": {
+        "card_title": "Whether in university, out of curiosity, or professionally, I have had the opportunity to work with various development technologies. Below, you can access more information by clicking on each one."
+    },
+    "experience_arteyparte": {
+        "title": "Web Developer",
+        "date": "2021",
+        "title_job": "Web Developer / Arte y Parte",
+        "title_job_date": "June 2021 - January 2022",
+        "job_posicion": "Responsible for implementing the content of the courses section for the site ",
+        "_job_posicion": "www.arteyparte.net",
+        "goals_1": "Update the system content.",
+        "goals_2": "Update the site design.",
+        "task_done_1": "Contributed to the design, development, and maintenance of an online course platform, ensuring a smooth and accessible user experience for students.",
+        "task_done_2": "Managed the periodic update of course content, integrating new materials and educational resources to maintain relevance and quality in the educational offering.",
+        "task_done_3": "Implemented styles and visual identity designed by the design team, ensuring aesthetic and functional consistency in the platform's interface.",
+        "task_done_4": "Actively participated in collaborative sessions with multidisciplinary teams, contributing ideas and solutions to improve both technical development and user experience on the platform."
+    },
+    "experience_grupoagni": {
+        "title": "Full Stack Developer",
+        "date": "2021 - 2023",
+        "title_job": "Full Stack Developer / Grupo Agni",
+        "title_job_date": "September 2021 - August 2023.",
+        "job_posicion": "Member of the development team of a cloud CRM for a client in the USA.",
+        "goals_1": "Rendering data on the client side.",
+        "goals_2": "Manage requests on the server.",
+        "task_done_1": "Implemented and optimized NoSQL databases, ensuring robust and scalable performance for applications handling large volumes of unstructured data.",
+        "task_done_2": "Automated the upload and storage of CSV files in data management systems, ensuring data integrity and accessibility for further analysis.",
+        "task_done_3": "Integrated and managed the implementation of geographic coordinates in Google Maps, improving the localization and visualization of spatial data in web applications.",
+        "task_done_4": "Developed functionalities to calculate and visualize optimal routes in Google Maps, optimizing travel time and resources in logistics applications.",
+        "task_done_5": "Implemented dynamic search filters that allowed users to refine results in real-time, enhancing the search experience in web applications.",
+        "task_done_6": "Developed and optimized background processes to handle processing-intensive tasks without affecting the performance of the user interface.",
+        "task_done_7": "Developed and configured automatic generation of downloadable PDF documents from web applications, ensuring correct data representation and ease of access for users.",
+        "task_done_8": "Implemented global state management in applications, allowing efficient and consistent data synchronization between different components and views.",
+        "task_done_9": "Developed efficient response services to handle server-side requests, improving the speed and reliability of web applications.",
+        "task_done_10": "Implemented and maintained e-commerce platforms, integrating key functionalities such as product management, payments, and order tracking, optimizing the online shopping experience.",
+        "task_done_11": "Implemented client-side state management, using modern frameworks to ensure consistency and efficiency in data manipulation in the user interface.",
+        "task_done_12": "Designed and developed reusable components in web applications, promoting efficiency and consistency in the implementation of user interfaces.",
+        "task_done_13": "Implemented and customized the visual design of interfaces using Material UI, ensuring a modern user experience consistent with established design guidelines.",
+        "task_done_14": "Designed and implemented ETL (Extract, Transform, Load) systems for data integration from various sources, ensuring accuracy and consistency in handling large volumes of information.",
+        "task_done_15": "Refactored and optimized code to improve efficiency, readability, and maintainability of applications, reducing loading times and improving overall performance."
+    },
+    "experience_wippie": {
+        "title": "Full Stack Developer",
+        "date": "2023 to present",
+        "title_job": "Full Stack Developer / Wippie",
+        "title_job_date": "September 2023 - present.",
+        "job_posicion": "Responsible for the development and maintenance of course management for the Mendoza Directorate of Informatics and Communications.",
+        "goals_1": "Rendering data on the client side.",
+        "goals_2": "Manage requests on the server.",
+        "goals_3": "Update the site design.",
+        "task_done_1": "Managed and supervised the deployment of applications in production environments, ensuring the correct configuration and functioning of the system, as well as mitigating risks during the transition.",
+        "task_done_2": "Performed preventive and corrective maintenance on productive systems, ensuring their stability, performance, and availability for end users.",
+        "task_done_3": "Designed, managed, and optimized relational databases, ensuring integrity, consistency, and performance in managing large volumes of transactional data.",
+        "task_done_4": "Implemented secure server connections via SSL and their integration with the X-Road platform, ensuring the protection of sensitive data and interoperability between different systems.",
+        "task_done_5": "Designed and structured tables of relational databases, optimizing data organization and access to improve query efficiency and referential integrity.",
+        "task_done_6": "Developed and implemented processes for the efficient ingestion and processing of large CSV files, ensuring correct import and handling of data in high-performance systems."
+    },
+    "contact": {
+        "title": "Message",
+        "name": "Name *",
+        "email": "Email *",
+        "subjet": "Subject",
+        "message": "Message *",
+        "button_send": "Send",
+        "download": "Download CV"
+    },
+    "global": {
+        "presentation": "Presentation",
+        "tecnologies": "Technologies",
+        "experience": "Experience",
+        "contact": "Contact",
+        "subtitle": "Full Stack Developer based in Argentina",
+        "button_read_more": "read more",
+        "button_close": "Close",
+        "job_posicion_title": "Position:",
+        "goals": "Goals:",
+        "task_done": "Tasks completed:",
+        "hability": "Skills:",
+        "note": "Note:"
+    },
+    "vuejs": {
+        "habilidad_1": "Routing with Vue Router",
+        "habilidad_2": "Integration with Tailwind CSS",
+        "habilidad_3": "API Communication using Axios",
+        "opinion": "In 2021, I used Vue.js to develop my first portfolio while looking for my first work experience. I implemented Tailwind CSS for the styles, which allowed me to explore and strengthen my skills in front-end development through this project."
+    },
+    "python": {
+        "habilidad_1": "Using BeautifulSoup for web scraping",
+        "habilidad_2": "Task automation",
+        "habilidad_3": "Data management and storage",
+        "opinion": "I explored Python out of curiosity, as it is a language I am interested in learning more about. I developed a script using the BeautifulSoup library to extract data from web pages and store it in my database, allowing me to automate scraping and data management tasks."
+    },
+    "javascript": {
+        "habilidad_1": "DOM manipulation",
+        "habilidad_2": "Event handling",
+        "habilidad_3": "Asynchronous programming",
+        "habilidad_4": "Use of frameworks and libraries",
+        "habilidad_5": "Exploration of Node.js",
+        "opinion": "I gained a solid understanding of JavaScript during my university studies and applied it in my professional experience for front-end development. Additionally, I experimented with Node.js to explore back-end development, thus expanding my knowledge in building full applications."
+    },
+    "php": {
+        "habilidad_1": "Object-Oriented Programming (OOP)",
+        "habilidad_2": "Syntax and Structure of PHP",
+        "habilidad_3": "Form handling",
+        "habilidad_4": "Database connection",
+        "habilidad_5": "Authentication and Authorization",
+        "habilidad_6": "Handling HTTP requests",
+        "opinion": "I gained a solid understanding of PHP during my university studies, where I learned the language's syntax and developed various functionalities, including authentication systems, request handling, controllers, and implementing classes and objects."
+    },
+    "laravel": {
+        "habilidad_1": "Routes and Controllers",
+        "habilidad_2": "Eloquent ORM",
+        "habilidad_3": "Middleware and Authentication",
+        "habilidad_4": "Integration with MongoDB",
+        "habilidad_5": "Microservices",
+        "habilidad_6": "Optimization and Scalability",
+        "opinion": "After my first year in college, I learned Laravel, which allowed me to understand how the framework works, use the Eloquent ORM, handle data, and develop applications with optimal performance."
+    },
+    "mysql": {
+        "habilidad_1": "Database design",
+        "habilidad_2": "Complex Queries",
+        "habilidad_3": "Database optimization",
+        "habilidad_4": "Data integrity and security",
+        "habilidad_5": "Indexing and Relationships",
+        "habilidad_6": "Stored Procedures",
+        "opinion": "I have experience designing and creating MySQL tables for a system I was responsible for during my work. I learned to perform MySQL queries in college, which provided me with a solid foundation for working with relational databases."
+    },
+    "mongodb": {
+        "habilidad_1": "Data storage and retrieval",
+        "habilidad_2": "Document-oriented model",
+        "habilidad_3": "Integration with Node.js",
+        "habilidad_4": "Aggregation Framework",
+        "habilidad_5": "Data validation",
+        "habilidad_6": "Indexing and performance optimization",
+        "opinion": "I began learning MongoDB when I started implementing NoSQL databases in projects. I found it interesting to work with its flexible data model, which allowed me to adapt to the requirements of different applications."
+    },
+    "git": {
+        "habilidad_1": "Version control",
+        "habilidad_2": "Branch management",
+        "habilidad_3": "Merge conflicts",
+        "habilidad_4": "Collaboration in teams",
+        "habilidad_5": "Documentation and workflows",
+        "opinion": "I learned Git in my early days of programming and have used it for version control in all my projects. I understand how to create branches, manage merges, and collaborate with teams using Git workflows."
+    }
+}

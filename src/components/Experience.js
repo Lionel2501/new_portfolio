@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ExpericienceArteYParte from './ExpericienceArteYparte';
+import ExpericienceArteYParte from './ExpericienceArteYParte';
 import ExpericienceGrupoAgni from './ExpericienceGrupoAgni';
 import ExpericienceWippie from './ExpericienceWippie';
 /* import { useState } from 'react'; */

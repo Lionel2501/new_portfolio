@@ -83,7 +83,9 @@
         "goals": "Objetivos:",
         "task_done": "Tareas realizadas:",
         "hability": "Habilidades:",
-        "note": "Nota:"
+        "note": "Nota:",
+        "city": "Montargis, Loiret (GMT +1)",
+        "phone": "0054 2494 646 055"
     },
     "vuejs":{
         "habilidad_1": "Enrutamiento con Vue Router",

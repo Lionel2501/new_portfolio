@@ -24,7 +24,7 @@ const ContactDatos = ({ t }) => {
                     <FaCity />
                 </div>
                 <div className="media-body">
-                    <p className="white-color font-alt">Tandil, Buenos Aires (GMT -3)</p>
+                    <p className="white-color font-alt">{t('global.city')}</p>
                 </div>
             </div>
             <div className="icons_datos">
@@ -32,7 +32,7 @@ const ContactDatos = ({ t }) => {
                     <FaPhone />
                 </div>
                 <div className="media-body">
-                    <p className="white-color font-alt">0054 2494 646 055</p>
+                    <p className="white-color font-alt">{t('global.phone')}</p>
                 </div>
             </div>
             <div className="icons_datos">

@@ -1,13 +1,14 @@
-import CarouselComponent from "@/src/components/CarouselComponent";
+import dynamic from "next/dynamic";
 import { Fragment } from "react";
-import ButtonLenguage from '../src/components/ButtonLenguage';
 
+const CarouselComponent = dynamic(() => import("@/src/components/CarouselComponent"), { ssr: false });
+const ButtonLenguage = dynamic(() => import("../src/components/ButtonLenguage"), { ssr: false });
 
 const Index = () => {
 
   return (
     <Fragment>
-        <ButtonLenguage /> 
+        <ButtonLenguage />
         <CarouselComponent />
     </Fragment>
   );

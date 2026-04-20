@@ -18,7 +18,7 @@ i18n
   .use(initReactI18next) // Configura i18next con React
   .init({
     resources,
-    fallbackLng: 'es', // Idioma por defecto si no se detecta o no está disponible el idioma del usuario
+    fallbackLng: 'fr', // Idioma por defecto si no se detecta o no está disponible el idioma del usuario
     interpolation: {
       escapeValue: false // React ya escapa los valores
     }

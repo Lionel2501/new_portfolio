@@ -83,7 +83,9 @@
         "goals": "Goals:",
         "task_done": "Tasks completed:",
         "hability": "Skills:",
-        "note": "Note:"
+        "note": "Note:",
+        "city": "Montargis, Loiret (GMT +1)",
+        "phone": "+33 6 26 23 08 12"
     },
     "vuejs": {
         "habilidad_1": "Routing with Vue Router",
